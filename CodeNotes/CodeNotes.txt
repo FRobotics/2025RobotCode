@@ -1,0 +1,248 @@
+
+VI		Notes
+
+
+========================================================================================================
+OPEN ITEMS
+========================================================================================================
+
+PRIORITIES...
+	1) X ENSURE DRIVERS ARE HAPPY WITH EXISTING STRAIGHT 2 PIECE AUTO.   DONE
+	2) - TEST GO TO POSITION BUTTONS				     DONE - needs camera and traj tuning,
+											speaker orientation backwards.
+	3) X ADD / TEST, BOX NOTE ALIGNMENT COMMAND, ENSURE IT IS AT THE BEGINNING OF ALL AUTO.
+	4) X CREATE SIDE 2 PIECE AUTO.
+	5) X Set a shooter speed thats lower for final trap shoot (Not Needed)
+	6) - EFFICIENCY MEM/CPU/CAN ITEMS.
+	7) X FINISH DASHBOARD.
+	8) - REPLACE ABSOLUTE TRAJECTORY BUTTONS WITH OBSTACLE AVOIDANCE TRAJECTORY.
+	(TEAM SHOULD REVIEW AND PRIORITIZE)
+
+- Dashboard
+	X add robot initial orientation setter
+	X add robot gyro calibration setter
+
+- Box Execute
+		- Use global time function for PIDs and timer functions (cpu efficiency)
+		- Only get device refs once, then remember them (cpu efficiency)
+		- Did we implement a new command to "fix note" position.  This would be useful at the beginning of Auto.
+			(I couldn't find it.  Maybe it wasn't pushed - meaning it is likely lost and needs to be re-done.)
+
+		
+- TrajectoryCreationRelativeSwerve.
+		- This looks okay.  
+		- Make a version that only has 2 waypoints instead of 4.
+		- Make a version for left of speaker
+		- Make a version for right of speaker.
+
+
+- TrajectoryExecuteRelative.
+		- Use DriveGetGyroZ instead of external parameter.   Make rotation from degrees not radians.
+		- Where drive max speed is used, convert to M/S
+		- Convert drive max accel to M/S^2
+
+
+- Math Lib (For Jim)
+		- Swerve Pose Est - default Game Start to TRUE.
+
+- 2 Piece Auto
+		X At the very beginning, issue "fix note alignment" command, then issue wait for box ready, then rest of existing code.
+
+
+- ArmExecute
+		- Only get device refs once, then remember them (cpu efficiency)
+
+- ClimbExecute
+		- Only get device refs once, then remember them (cpu efficiency)
+
+========================================================================================================
+CLOSED ITEMS
+========================================================================================================
+		- 
+
+- ClimbBegin
+		X Suggest setting the smart current limit to TRUE.  Currently this is an unwired input to this VI.
+			It defaults to FALSE.
+		X I didn't look, but ensure that there are current limits.  Ask build and electrical to
+			tell us what the current limits should be.
+		X ensure sensor scaling factor is set.
+		
+
+- ClimbExec
+		X Climb is not rotational like the arm.  Do NOT use COSINE to compensate for the weight being lifted.
+		If the motor is pulling down (output is negative), leave alone.  If output is pushing up (output is
+		positive) multiply the output by a constant fractional number -- say 0.3.  
+		X do you want separate demands for left and right ??  You could use one demand for both.
+		X create a virtual forward limit switch.  This would be true if height is >= some constant.
+		X When hitting the bottom limit switch, suggest setting the position to 0.  Suggest that 
+			to ensure that there isn't a strange bounce process the raw limit switch value with
+			"on delay" then to an "edge on" then to the case statement that sets the position to
+			zero. 
+		X It would be best to use the same set of tuning constants for left and right (this helps to ensure
+			that somehow the constants aren't different, resulting in different motor actions.
+
+
+- BoxBegin
+		X probably don't need current limits for either shooter or intake.  Suggest removing
+		X The sensor type for the built in is "hall..." not encoder.  (Encoder 
+			is for an externally attached encoder.
+		X suggest setting rate limit for shooter.  maybe 0.1 seconds to full speed.
+			this will limit the current draw and help battery
+		X suggest setting rate limit for intake.  maybe 0.1 seconds to full speed.
+			this will limit the current draw and help battery
+		X for intake the current gear ratio is 36:1.  Suggest setting the sensor scaling 1/36
+			so we can measure RPM of the intake wheels.  If you want the units to be
+			rev/seconds then multiply by 1/60....
+
+
+- Box Execute
+		X add test for shooter setpoint = 0, take this through an ON EDGE.  Put this into PID RESET input
+		X suggest writing filtered speed to network table variables.
+		X check the permissive for issuing the shooting command - Do you want state = Have Note?
+		X "used note" - do you want the sensor detection to be on or off (I'm thinking off).  Also
+			you might want to add an Off Delay here.  The intake sensor is pretty far from
+			the intake and the speed is slower.
+		X start shoot - should shoot wheel setpoint be zero?  It is really okay since the next
+			state sets the speed demand.
+		X the "Set" functions are really "Get" functions.  They are getting the global variable values
+			for others to use.  Suggest renaming.
+		X for commands, suggest using "bool cmd mux array"  under General digital -> bool cmd.
+			this helps arbitrate among commands.  Could just use individual bool cmd and process
+			in state machine.  (works the same.)
+		X dont need to feed time to the write network table variables..
+		# Just a note -- after invert of digital inputs, sensors mean
+				intake	shooter
+				-----	------
+				False	False	No note
+				False	True	Have note (note in shooter wheels)
+				True	False	Have note (ready to shoot)
+				True	True	Have note (mis-aligned)
+
+
+- ArmBegin2	
+		X Set the starting angle
+		X Set the primary current limit to 40 Amps
+		X  Suggest naming this Arm2Begin 
+		X  The NEO is a "brushless" motor.
+		X  Use "set limit switch config" for "forward" switch.  
+		   	X Set to enabled to TRUE.
+		   	X Set polarity to normally open.
+		X  Use "set limit switch config" for "reverse" switch.  
+		   	X Set to enabled to TRUE.
+		   	X Set polarity to normally open.
+		X  Use "Set Ramp Rate".  Suggest 0 to full speed in 0.2 seconds.
+		X  Use "Set sensor conversion".  For postion if 1 = Revloutions, 
+			use Deg/Revolutions and 1/GearRatio to calculate new
+			conversion factor.   Same thing for velocity.  Standard units 
+			are Revolution / Minute.  We know 1 Minute / 60 seconds 
+			and Deg/Revolutions and 1/GearRatio.
+		X set a value for initial position.  Put a note that this needs to be
+			set.
+
+
+- Arm2Exec
+		X when hitting the reverse limit switch set the actual angle.  Right now it is zero.
+		X when hitting the upper limit switch, add code to set the sensor angle.  Right now it it zero.
+		X When hitting the top limit switch, suggest setting the position to top value.  Suggest that 
+			to ensure that there isn't a strange bounce process the raw limit switch value with
+			"on delay" then to an "edge on" then to the case statement that sets the position to
+			top value. 
+		n/a When hitting the bottom limit switch, suggest setting the position to bottom value.  Suggest that 
+			to ensure that there isn't a strange bounce process the raw limit switch value with
+			"on delay" then to an "edge on" then to the case statement that sets the position to
+			bottom value. 
+		X set "first time" setpoint equal to position so it doesnt move.
+		X feed this setpoint and the position that is read from motor controller to the position control.
+		- write the result to the motor.
+		X the position control has inputs for the limit switches too.
+		X dont need to feed time to the write network table variables..  Okayyyyyy
+  		X Suggest renaming this to Arm2Execute...
+		X This will be position control.  The math library now has a position
+			control routine.
+		X Read the sensors first ( position, velocity, forward and reverse limit switches )
+		X write these to network tables.
+		X use position control to set motor output.  We can discuss tuning.
+
+
+- Human Execute
+		X Determine what driving modes are needed.  For example:
+			0 - Normal Swerve Drive
+			1 - Go to amp
+			2 - Go to speaker
+			3 - Go to source
+			4.... - whatever ......
+		X create code to determine the mode number
+		- modify the drive "human action cache" (suggest renaming) to do
+			driving for each mode.
+
+		X add code for 2nd controller
+
+		- add code for 3rd controller (button box)
+
+		X add climb commands
+
+		X add arm commands
+
+		X add box commmands
+
+		- suggest removing the drive modifier -- it doesn't do anything anyway.
+			if you want a slow mode add code for that.  suggest using a
+			set-reset flip flop to store the value. Write value to network
+			tables.  Add the value as an input to "human action cache"
+			and multiply the mode 0 with the slow mode factor as appropriate.
+			(Suggest not using this to modify other modes...)
+
+- Human Traj Position 
+		X Move to a system folder - human.
+		X Set desired positions -- in FEET, FEET, DEGREES.   Can use the Swerve Odometry example to find these...
+		X output of Trajectory routine is M, M, RAD/SEC,  CONVERT for use as input to DriveSetSpeed.
+
+- Vision Execute
+		X remove diagram disable structure around vision execute in "Periodic Tasks"
+		X Update vision execute with camera location and camera stream names.
+		X In periodic tasks, never stop the loop that reads the alliance information.   This will allow for easier testing.
+		X In periodic tasks, slow the read alliance information loop to every 3 seconds.  This seems fast enough...
+
+
+- Alliance Color Global
+		X move to a system folder (human, or auto, or vision)... suggest vision...
+
+X Climb Begin
+	X undo fix that increased the top number of the radius from 6 to 7.63.   This was the wrong way.
+		(the climbing arms went up a shorter distance....)  The radius is really smaller than
+		what we have.... SO   calculate 11/13.8 and multiply the top number of the radius (6) by
+		this value.   This should allow the climber to reach higher...   I get 0.797 x 6 = 4.782.
+
+X Climb Execute
+	X Remove the code that reads the left and right "sensor velocity" and writes these to network
+		table variables.  We don't use this velocity value.  Removing this will lessen our
+		CAN bus utilization which is pretty high.
+
+X Arm2 Execute
+	X Remove the code that reads the arm "sensor velocity" and writes this to a network
+		table variable.  We don't use this velocity value.  Removing this will lessen our
+		CAN bus utilization which is pretty high.
+
+X Auto Global
+		X remove items from previous year.   When opening, select "ignore all".   Items are:
+			QuickAutoPosition, and QuickAutoGamePiece
+
+X AutoSetPreSetPos.VI
+		X highlight VI, select explore, Delete this VI file.  It is from the previous year.
+
+X AutoGoHomevi
+		X highlight VI, select explore, Delete this VI file.  It is from the previous year.
+
+X AutoSetXZ.vi
+		X highlight VI, select explore, Delete this VI file.  It is from the previous year.
+
+X Human Network
+		X Look at Human/ServiceMode, Human/ServiceRotate, Human/ServiceLift, Human/ServiceExtend.  If these
+		are from previous year delete.  Also delete the global variables from Human Global
+
+X PeriodicTasks
+		X When alliance color changes, write it to network tables as a string. (Red, Blue, Invalid).  So
+		we can see that this works.
+
+
+

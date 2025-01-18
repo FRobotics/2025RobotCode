@@ -913,8 +913,6 @@ AddOutputFilter chunkFilter
 				<Item Name="XBox Axes Indexer.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/XBox Axes Indexer.ctl"/>
 				<Item Name="XBox Buttons Indexer.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/XBox Buttons Indexer.ctl"/>
 			</Item>
-			<Item Name="AllianceColorGet.vi" Type="VI" URL="../MNM/GeneralPurpose/AllianceColorGet.vi"/>
-			<Item Name="DriveGetGyroCalibrated.vi" Type="VI" URL="../MNM/Drive/DriveGetGyroCalibrated.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -924,8 +922,6 @@ AddOutputFilter chunkFilter
 			<Item Name="hmblv.dll" Type="Document" URL="hmblv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="HumanGlobal.vi" Type="VI" URL="../MNM/Human/HumanGlobal.vi"/>
-			<Item Name="IntakeGetHaveNote.vi" Type="VI" URL="../MNM/Intake/IntakeGetHaveNote.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

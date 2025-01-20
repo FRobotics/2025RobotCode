@@ -117,6 +117,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Drive" Type="Folder" URL="../Drive">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Elevator" Type="Folder" URL="../Elevator">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="GeneralPurpose" Type="Folder" URL="../GeneralPurpose">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -485,66 +488,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NT_LL_Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT_LL_Write String Array.vi"/>
 				<Item Name="NT_LL_Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT_LL_Write String.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="Packet_decode_Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_Boolean.vi"/>
-				<Item Name="Packet_decode_ByteI8.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_ByteI8.vi"/>
-				<Item Name="Packet_decode_Flt64.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_Flt64.vi"/>
-				<Item Name="Packet_decode_Int16.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_Int16.vi"/>
-				<Item Name="Packet_decode_Int32.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_Int32.vi"/>
-				<Item Name="Packet_decode_Transform3d.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/Packet_decode_Transform3d.vi"/>
-				<Item Name="PhotonCamera_GetLatestResult.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonCamera_GetLatestResult.vi"/>
-				<Item Name="PhotonCamera_IsConnected.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonCamera_IsConnected.vi"/>
-				<Item Name="PhotonEstimatedRobotPose_GetAll.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonEstimatedRobotPose_GetAll.vi"/>
-				<Item Name="PhotonEstimatedRobotPose_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonEstimatedRobotPose_New.vi"/>
-				<Item Name="PhotonMultiTargetPNPResult_MAX_IDS.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonMultiTargetPNPResult_MAX_IDS.vi"/>
-				<Item Name="PhotonMultiTargetPNPResult_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonMultiTargetPNPResult_New.vi"/>
-				<Item Name="PhotonMultiTargetPNPResult_unpack.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonMultiTargetPNPResult_unpack.vi"/>
-				<Item Name="PhotonPipelineResult_GetLatency_Millis.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_GetLatency_Millis.vi"/>
-				<Item Name="PhotonPipelineResult_GetMultiTagResult.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_GetMultiTagResult.vi"/>
-				<Item Name="PhotonPipelineResult_GetTargets.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_GetTargets.vi"/>
-				<Item Name="PhotonPipelineResult_GetTimeStampSecs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_GetTimeStampSecs.vi"/>
-				<Item Name="PhotonPipelineResult_HasTargets.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_HasTargets.vi"/>
-				<Item Name="PhotonPipelineResult_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_New.vi"/>
-				<Item Name="PhotonPipelineResult_SetTimeStampSecs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_SetTimeStampSecs.vi"/>
-				<Item Name="PhotonPipelineResult_Unpack.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPipelineResult_Unpack.vi"/>
-				<Item Name="PhotonPNPResult_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPNPResult_New.vi"/>
-				<Item Name="PhotonPNPResult_New_Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPNPResult_New_Empty.vi"/>
-				<Item Name="PhotonPNPResult_unpackt.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPNPResult_unpackt.vi"/>
-				<Item Name="PhotonPoseEstimator_averageBestTargetsStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_averageBestTargetsStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_averageBestTargetsStrategy_calc.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_averageBestTargetsStrategy_calc.vi"/>
-				<Item Name="PhotonPoseEstimator_CalcDifference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_CalcDifference.vi"/>
-				<Item Name="PhotonPoseEstimator_closestToCameraHeightStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_closestToCameraHeightStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_closestToCameraHeightStrategy_calc.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_closestToCameraHeightStrategy_calc.vi"/>
-				<Item Name="PhotonPoseEstimator_closestToReferencePoseStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_closestToReferencePoseStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_closestToReferencePoseStrategy_calc.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_closestToReferencePoseStrategy_calc.vi"/>
-				<Item Name="PhotonPoseEstimator_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_Execute.vi"/>
-				<Item Name="PhotonPoseEstimator_GetEmptyPose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetEmptyPose.vi"/>
-				<Item Name="PhotonPoseEstimator_GetFieldTags.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetFieldTags.vi"/>
-				<Item Name="PhotonPoseEstimator_GetHighestAmbiguity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetHighestAmbiguity.vi"/>
-				<Item Name="PhotonPoseEstimator_GetLastPose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetLastPose.vi"/>
-				<Item Name="PhotonPoseEstimator_GetReferencePose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetReferencePose.vi"/>
-				<Item Name="PhotonPoseEstimator_GetRobotToCameraTransform.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_GetRobotToCameraTransform.vi"/>
-				<Item Name="PhotonPoseEstimator_lowestAmbiguityStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_lowestAmbiguityStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_multiTagOnCoprocStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_multiTagOnCoprocStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_New.vi"/>
-				<Item Name="PhotonPoseEstimator_PackConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_PackConfig.vi"/>
-				<Item Name="PhotonPoseEstimator_SetCamera.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetCamera.vi"/>
-				<Item Name="PhotonPoseEstimator_SetHighestAmbiguity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetHighestAmbiguity.vi"/>
-				<Item Name="PhotonPoseEstimator_SetLastPose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetLastPose.vi"/>
-				<Item Name="PhotonPoseEstimator_SetMultiTagFallbackStrategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetMultiTagFallbackStrategy.vi"/>
-				<Item Name="PhotonPoseEstimator_SetPrimaryStategy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetPrimaryStategy.vi"/>
-				<Item Name="PhotonPoseEstimator_SetReferencePose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetReferencePose.vi"/>
-				<Item Name="PhotonPoseEstimator_SetRobotToCameraTransform.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_SetRobotToCameraTransform.vi"/>
-				<Item Name="PhotonPoseEstimator_Update_All.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_Update_All.vi"/>
-				<Item Name="PhotonPoseEstimator_Update_PipeResult.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonPoseEstimator_Update_PipeResult.vi"/>
 				<Item Name="PhotonPoseStrategy_ENUM.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonPoseStrategy_ENUM.ctl"/>
-				<Item Name="PhotonTargetModel_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTargetModel_New.vi"/>
-				<Item Name="PhotonTargetModel_New_AprilTag16h5.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTargetModel_New_AprilTag16h5.vi"/>
-				<Item Name="PhotonTargetModel_New_RectPlanar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTargetModel_New_RectPlanar.vi"/>
-				<Item Name="PhotonTrackedTarget_GetAltCameraToTarget.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTrackedTarget_GetAltCameraToTarget.vi"/>
-				<Item Name="PhotonTrackedTarget_GetBestCameraToTarget.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTrackedTarget_GetBestCameraToTarget.vi"/>
-				<Item Name="PhotonTrackedTarget_GetFiducialId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTrackedTarget_GetFiducialId.vi"/>
-				<Item Name="PhotonTrackedTarget_GetPoseAmbiguity.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTrackedTarget_GetPoseAmbiguity.vi"/>
-				<Item Name="PhotonTrackedTarget_Unpack.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/PhotonTrackedTarget_Unpack.vi"/>
+				<Item Name="PhotonVisionLib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/PhotonVisionLib.lvlib"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="PWM data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM data proto.ctl"/>
 				<Item Name="PWM proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/PWM/PWM proto.ctl"/>
@@ -638,7 +583,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="StringIPtoAddress_Simulation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/StringIPtoAddress_Simulation.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="TargetCorner_New.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/PhotonVisionLib/SubVI/TargetCorner_New.vi"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
@@ -997,7 +941,6 @@ AddOutputFilter chunkFilter
 			<Item Name="SDO_DRIVE_GET_GYRO.vi" Type="VI" URL="../Swerve_Drive_System/SDO_DRIVE_GET_GYRO.vi"/>
 			<Item Name="SDO_DRIVE_Get_KINEMATIC.vi" Type="VI" URL="../Swerve_Drive_System/SDO_DRIVE_Get_KINEMATIC.vi"/>
 			<Item Name="SDO_DRIVE_Get_ModulePositions.vi" Type="VI" URL="../Swerve_Drive_System/SDO_DRIVE_Get_ModulePositions.vi"/>
-			<Item Name="SDO_DRIVE_GLOBALS.vi" Type="VI" URL="../Swerve_Drive_System/SDO_DRIVE_GLOBALS.vi"/>
 			<Item Name="SDO_TRAJECTORY_GLOBALS.vi" Type="VI" URL="../TrajectoryNotUsed/SDO_TRAJECTORY_GLOBALS.vi"/>
 			<Item Name="SDO_Vision_Get_Pose.vi" Type="VI" URL="../Vision_Interface/SDO_Vision_Get_Pose.vi"/>
 		</Item>

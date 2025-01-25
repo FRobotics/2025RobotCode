@@ -506,10 +506,6 @@
 			<Item Name="VisionGetDistanceAndAngleToSpeaker.vi" Type="VI" URL="../Vision/VisionGetDistanceAndAngleToSpeaker.vi"/>
 			<Item Name="BooleanToggle.vi" Type="VI" URL="../GeneralPurpose/BooleanToggle.vi"/>
 			<Item Name="IntakeTeleop.vi" Type="VI" URL="../Intake/IntakeTeleop.vi"/>
-			<Item Name="IntakeCmdCancel.vi" Type="VI" URL="../Intake/IntakeCmdCancel.vi"/>
-			<Item Name="IntakeCmdIntake.vi" Type="VI" URL="../Intake/IntakeCmdIntake.vi"/>
-			<Item Name="IntakeCmdSpitOut.vi" Type="VI" URL="../Intake/IntakeCmdSpitOut.vi"/>
-			<Item Name="IntakeCmdFeedToShoot.vi" Type="VI" URL="../Intake/IntakeCmdFeedToShoot.vi"/>
 			<Item Name="ShoulderTeleop.vi" Type="VI" URL="../Shoulder/ShoulderTeleop.vi"/>
 			<Item Name="ShoulderCmdCalcSpeakerShootALWAYS.vi" Type="VI" URL="../Shoulder/ShoulderCmdCalcSpeakerShootALWAYS.vi"/>
 			<Item Name="ShoulderCmdUpIncALWAYS.vi" Type="VI" URL="../Shoulder/ShoulderCmdUpIncALWAYS.vi"/>
@@ -1027,6 +1023,10 @@ AddOutputFilter chunkFilter
 				<Item Name="SPARK CAN Arb ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/Typedef/SPARK CAN Arb ID.ctl"/>
 				<Item Name="SPARK Check Firmware Version.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/SPARK Check Firmware Version.vi"/>
 				<Item Name="SPARK Clear Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Clear Faults.vi"/>
+				<Item Name="SPARK Configure Basic Idle Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Configure Basic Idle Mode.vi"/>
+				<Item Name="SPARK Configure Basic Inverted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Configure Basic Inverted.vi"/>
+				<Item Name="SPARK Configure Basic Ramp Rate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Configure Basic Ramp Rate.vi"/>
+				<Item Name="SPARK Configure Basic.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Configure Basic.vi"/>
 				<Item Name="SPARK Create.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/SPARK Create.vi"/>
 				<Item Name="SPARK Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Disable.vi"/>
 				<Item Name="SPARK Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/SPARK Enable.vi"/>
@@ -1425,6 +1425,17 @@ AddOutputFilter chunkFilter
 			<Item Name="hmblv.dll" Type="Document" URL="hmblv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="IntakeCmdCancelALWAYS.vi" Type="VI" URL="../Intake/IntakeCmdCancelALWAYS.vi"/>
+			<Item Name="IntakeCmdFeedToShootALWAYS.vi" Type="VI" URL="../Intake/IntakeCmdFeedToShootALWAYS.vi"/>
+			<Item Name="IntakeCmdIntakeALWAYS.vi" Type="VI" URL="../Intake/IntakeCmdIntakeALWAYS.vi"/>
+			<Item Name="IntakeExecute.vi" Type="VI" URL="../Intake/IntakeExecute.vi"/>
+			<Item Name="IntakeExecuteLogic.vi" Type="VI" URL="../Intake/IntakeExecuteLogic.vi"/>
+			<Item Name="IntakeGetHaveNote.vi" Type="VI" URL="../Intake/IntakeGetHaveNote.vi"/>
+			<Item Name="IntakeGlobal.vi" Type="VI" URL="../Intake/IntakeGlobal.vi"/>
+			<Item Name="IntakeNetwork.vi" Type="VI" URL="../Intake/IntakeNetwork.vi"/>
+			<Item Name="IntakeNetworkSlow.vi" Type="VI" URL="../Intake/IntakeNetworkSlow.vi"/>
+			<Item Name="IntakeStateMachine.vi" Type="VI" URL="../Intake/IntakeStateMachine.vi"/>
+			<Item Name="IntakeTeleop.vi" Type="VI" URL="../Intake/IntakeTeleop.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

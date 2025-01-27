@@ -225,7 +225,7 @@
 			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../Trajectory/TrajectoryCalculateOrientation.vi"/>
 			<Item Name="DriveSetSpeedDemand.vi" Type="VI" URL="../Drive/DriveSetSpeedDemand.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="DriveMaxSpeed.vi" Type="VI" URL="../Drive/DriveMaxSpeed.vi"/>
+			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../Drive/DriveGetMaxSpeed.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1003,7 +1003,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">183</Property>
+				<Property Name="Bld_version.build" Type="Int">184</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

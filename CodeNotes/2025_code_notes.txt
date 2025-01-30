@@ -1,0 +1,16 @@
+
+2025 Robot Control System Code Notes:
+
+
+Drive
+	- Need to use Phoenix 6 VI for CanCoder
+	- Need to update for Spark Max VI
+
+Elevator
+	ExecuteLogic.VI
+	- Setpoint - Is always zero.  It never changes.
+	- Need to set limits -- They currently are -15 and 120.   Suggest 8 and 41.
+	- There is an extra -- appears to be unused -- position control logic at the bottom of the VI.  (Suggest removing..)
+	- The logic still has the arm gravity compensation.  Suggest removing.  (Compensation for the elevator will be different.)
+	Teleop
+	- Doesn't have a Cancel button.  (To stop elevator where it is.)

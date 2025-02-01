@@ -1,0 +1,22 @@
+New Auto Functions and Parameters
+
+
+	DriveStraight
+		timeout - used
+		p1 - distance - Ft
+		p2 - max speed - ft/sec
+
+	DriveTurn
+		timeout - used 
+		p1 - degrees
+		p2 - max speed
+
+	FollowAbsoluteTrajectory
+
+	FollowRelativeTrajectory
+
+	MakeTrajectory (may not need)
+
+	SetTrajectory (may not need)
+
+	

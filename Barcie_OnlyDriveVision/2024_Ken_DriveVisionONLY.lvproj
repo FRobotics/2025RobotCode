@@ -30,6 +30,9 @@
 		<Item Name="Human" Type="Folder" URL="../Human">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Trajectory" Type="Folder" URL="../Trajectory">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
@@ -196,6 +199,7 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 			</Item>
 			<Item Name="ntcoreffi.dll" Type="Document" URL="ntcoreffi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -218,11 +222,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DriveGetGyroIntDirection.vi" Type="VI" URL="../Drive/DriveGetGyroIntDirection.vi"/>
-			<Item Name="TrajectoryExecuteAbsolute.vi" Type="VI" URL="../Trajectory/TrajectoryExecuteAbsolute.vi"/>
-			<Item Name="TrajectoryGetClosedLoop.vi" Type="VI" URL="../Trajectory/TrajectoryGetClosedLoop.vi"/>
-			<Item Name="TrajectoryGlobals.vi" Type="VI" URL="../Trajectory/TrajectoryGlobals.vi"/>
-			<Item Name="TrajetoryCreationAbsoluteSwerve.vi" Type="VI" URL="../Trajectory/TrajetoryCreationAbsoluteSwerve.vi"/>
-			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../Trajectory/TrajectoryCalculateOrientation.vi"/>
 			<Item Name="DriveSetSpeedDemand.vi" Type="VI" URL="../Drive/DriveSetSpeedDemand.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../Drive/DriveGetMaxSpeed.vi"/>
@@ -1003,7 +1002,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">188</Property>
+				<Property Name="Bld_version.build" Type="Int">190</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

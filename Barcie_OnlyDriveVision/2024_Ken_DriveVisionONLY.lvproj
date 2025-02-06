@@ -213,7 +213,7 @@
 			<Item Name="DriveGetSwerveKinematics.vi" Type="VI" URL="../Drive/DriveGetSwerveKinematics.vi"/>
 			<Item Name="DriveGlobal.vi" Type="VI" URL="../Drive/DriveGlobal.vi"/>
 			<Item Name="DriveGetModulePositions.vi" Type="VI" URL="../Drive/DriveGetModulePositions.vi"/>
-			<Item Name="DriveGetYaw.vi" Type="VI" URL="../Drive/DriveGetYaw.vi"/>
+			<Item Name="DriveGetYawRaw.vi" Type="VI" URL="../Drive/DriveGetYawRaw.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

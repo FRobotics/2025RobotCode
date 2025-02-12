@@ -2,15 +2,142 @@
 2025 Robot Control System Code Notes:
 
 
+========
+CLIMB
+========
+-general-
+	- I didn't see a VI to issue a Cancel command.
+Begin
+	- The motor will need to have a current limit defined.
+	- If there is a position sensor, it will be a REV ThroughBore encoder
+		wired to the RoboRIO.  It will be a Counter configured in
+		semi-period mode connected to a DIO port.  The scaling is as
+		follows 1us = 0 degrees, 1024us = 360 degrees.
+StateMachine
+	- For ClimbRest make this three different values.  if > 50 make it -x, 
+		if < 40 make it +x, otherwise make it 0 and decide it is done.
+		This is known as hysterisis.  
+		The value will NEVER be exactly 45.
+	- Likely when going to rest there nothing is being lifted.  Use a much
+		smaller value than -1 and +1 (say +/- 0.2)
+	- ClimbReach will not likely have a load.  As such a much smaller motor
+		output would be okay (say 0.2).
+ExecuteLogic
+	- comment in code which direction is FWD and REV for limit switches!!
+	- Use The buildarray vi to create the command array.  Don't create a
+		cluster then convert it to an array.
+	- The Climb INC commands are NOT protected by the limit switches.  
+		Each of these commands needs to be ANDed with the NOT of the 
+		limit switch for that particular direction.
+	- Is the CLAMP really needed.  Where in the code is it possible to be
+		different than +/- 1.0
+	- Do NOT read sensors in the ExecuteLogic function.  These sensors need
+		to be inputs to this VI, so it can be simulated.  Read the
+		sensors in the Execute VI and pass them to the ExecuteLogic VI.
+	- Remove the commented out code at the bottom right that isn't used.
+	- The SensorPosition input is written the a global variable with what 
+		appears to be the wrong name.
+Execute
+	- Read the limit switches here, not in ExecuteLogic.  Pass the values
+		as parameters to ExecuteLogic.
+	- If there is a sensor position it won't be from the SparkMax motor
+		controller.  It would be a REV ThroughBoreEncoder wired to
+		to the RoboRIO and read as a Counter in SemiPeriodMode.
+Teleop
+	- All the commands except for IncReach and IncPull need to have EdgeOn vi
+		between the input control and case structure so that this command
+		only gets sent once when the button is pressed.
+	- This VI needs to be able to issue a Cancel command.
+Global
+	- looks good
+Network
+	- looks good
+ClimbStates.ctl
+	- Give the ENUM an real name.
+	- Make it a strict type def
+
+
+========
+WRIST
+========
+- general -
+	- Don't really need 2 different global VI.  One VI can contain all the
+		global variables for this system.  However it doesn't hurt anything
+		to do it this way.
+Begin
+	- Don't use 0 for the seconds from neutral to full.  (maybe 0.2 seconds)
+	- Set a non-zero can id.
+	- The wrist won't be using the motor's built in encoder.  It will have
+		a REV ThroughBore Encoder wired to the roboRIO.  So don't need
+		the position conversion functions.  It also probably won't have
+		limit switches.
+ExecuteLogic
+	- inputs and outputs look good.
+	- needs work -- won't offer additional comments yet.
+Execute
+	- needs work.  This will be fairly simple.  Read sensors, call execute logic,
+		output actuator (motor) demands.
+StartPosition
+	- Think about the name.  This might be DesiredPosition??
+
+
+
+==========
+INTAKE
+==========
+note: I didn't get a chance to review the newest version yet.
+
+
+
+
+==========
+Elevator
+==========
+note: I didn't get a chance to review the newest version yet.
+
+ExecuteLogic.VI
+	- Setpoint - Is always zero.  It never changes.
+	- Need to set limits -- They currently are -15 and 120.   Suggest 8 and 41.
+	- There is an extra -- appears to be unused -- position control logic at 
+		the bottom of the VI.  (Suggest removing..)
+	- The logic still has the arm gravity compensation.  Suggest removing.
+		(Compensation for the elevator will be different.)
+Teleop
+	- Doesn't have a Cancel button.  (To stop elevator where it is.)
+
+======
 Drive
+======
 	- Need to use Phoenix 6 VI for CanCoder
 	- Need to update for Spark Max VI
 
-Elevator
-	ExecuteLogic.VI
-	- Setpoint - Is always zero.  It never changes.
-	- Need to set limits -- They currently are -15 and 120.   Suggest 8 and 41.
-	- There is an extra -- appears to be unused -- position control logic at the bottom of the VI.  (Suggest removing..)
-	- The logic still has the arm gravity compensation.  Suggest removing.  (Compensation for the elevator will be different.)
-	Teleop
-	- Doesn't have a Cancel button.  (To stop elevator where it is.)
+==========
+New Auto
+==========
+AutoListProcessor
+	- ElevRestWait - VI is named Auto Arm Wait...  Should be Elevator...
+
+==========
+Vision
+==========
+- general -
+	- Need to get from Barcie
+	- Add cameras 3,4
+
+==========
+Trajectory
+==========
+- general -
+	- Need to get from Barcie
+
+==========
+LED
+==========
+- general -
+	- Need to define meanings and do code.
+
+==========
+Dashboard
+==========
+- general -
+	- Need to do.

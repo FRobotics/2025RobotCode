@@ -38,6 +38,8 @@ ExecuteLogic
 	- The SensorPosition input is written the a global variable with what 
 		appears to be the wrong name.
 Execute
+	- Only call ExecuteLogic ONCE.  Add whatever inputs and outputs are needed
+		for both elevator sections.
 	- Read the limit switches here, not in ExecuteLogic.  Pass the values
 		as parameters to ExecuteLogic.
 	- If there is a sensor position it won't be from the SparkMax motor
@@ -93,8 +95,36 @@ note: I didn't get a chance to review the newest version yet.
 ==========
 Elevator
 ==========
-note: I didn't get a chance to review the newest version yet.
+- general -
+	- Will there really be a manual increment and decrement command.  If not, 
+		remove these everywhere.
+Begin
+	- Limit switches might be wired to the motor controllers and not separate
+		digital inputs.
+	- Conversion factors will likely be different for the inner and outer elevator
+		motors.  Make this separate and show how the values are calculated.
+	- Initial sensor position may not be zero.  Need to measure this and set.
+Cmds
+	- May need a command for barge delivery.
 
+GetPosition
+	- The same global is being used for both inner and outer elevator positions.
+		These MUST be separate values.
+GetPositionDemand
+	- This is broken
+	- This should return 2 values, one for inner and outer elevators.
+Global
+	- There will need to be separate tuning constants for each controller (inner, 
+		and outer).
+AtSetpoint
+	- +/- 1 inch is probably too large.  Suggest < 0.5, maybe even < 0.3
+Network
+	- REVIEW THIS COMPLETELY.  In some cases the same value is being written
+		more than once.
+
+NetworkSlow
+	- There will need to be separate tuning constants, global variables, and 
+		network table variables inner and outer elevator controls
 ExecuteLogic.VI
 	- Setpoint - Is always zero.  It never changes.
 	- Need to set limits -- They currently are -15 and 120.   Suggest 8 and 41.
@@ -103,7 +133,7 @@ ExecuteLogic.VI
 	- The logic still has the arm gravity compensation.  Suggest removing.
 		(Compensation for the elevator will be different.)
 Teleop
-	- Doesn't have a Cancel button.  (To stop elevator where it is.)
+	- Doesn't have a Cancel button.  Needs to have a CANCEL button.
 
 ======
 Drive

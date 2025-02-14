@@ -1,4 +1,4 @@
-FRC 2025 Team 4150 startup notes / to do list
+FRC 2025 Team 4150 startup and testing notes / to do list
 =============================================
 
 ==========
@@ -63,7 +63,9 @@ Outer Elevator
  - Verify limit switches
  - Verify and scale encoder
  - Verify direction of motor
+ - Determine and set values for setpoints
  - Set motor outputs to be small
+	- set control max output
  - Set elevator to middle of range.
  - Test, ......
 
@@ -74,7 +76,9 @@ Inner Elevator
  - Verify limit switches
  - Verify and scale encoder
  - Verify direction of motor
+ - Determine and set values for setpoints
  - Set motor outputs to be small
+	- set control max output
  - Set elevator to middle of range.
  - Ensure that lower limit of setpoint is set based on wrist position!!!!
  - Test, ......

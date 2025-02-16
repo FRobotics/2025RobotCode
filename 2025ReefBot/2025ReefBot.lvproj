@@ -566,6 +566,9 @@
 			<Item Name="DriveGetYawRaw.vi" Type="VI" URL="../Drive/DriveGetYawRaw.vi"/>
 			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../Drive/DriveGetMaxSpeed.vi"/>
 			<Item Name="JoystickSquare.vi" Type="VI" URL="../GeneralPurpose/JoystickSquare.vi"/>
+			<Item Name="HumanTrajPositionsDash.vi" Type="VI" URL="../Human/HumanTrajPositionsDash.vi"/>
+			<Item Name="TrajectoryCreateExecuteAbsolutePointInFront.vi" Type="VI" URL="../Trajectory/TrajectoryCreateExecuteAbsolutePointInFront.vi"/>
+			<Item Name="TrajectoryCalculateOrientationTowards.vi" Type="VI" URL="../Trajectory/TrajectoryCalculateOrientationTowards.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

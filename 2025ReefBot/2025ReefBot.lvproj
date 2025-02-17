@@ -28,6 +28,9 @@
 		<Item Name="Wrist" Type="Folder" URL="../Wrist">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Human" Type="Folder" URL="../Human">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SwitchOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchOpen.vi"/>
@@ -537,36 +540,23 @@
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="HumanExecute.vi" Type="VI" URL="../Human/HumanExecute.vi"/>
-			<Item Name="HumanDriveAxesProcessing.vi" Type="VI" URL="../Human/HumanDriveAxesProcessing.vi"/>
-			<Item Name="HumanSelectDriveMode.vi" Type="VI" URL="../Human/HumanSelectDriveMode.vi"/>
 			<Item Name="BooleanToggle.vi" Type="VI" URL="../GeneralPurpose/BooleanToggle.vi"/>
 			<Item Name="AllianceColorGet.vi" Type="VI" URL="../GeneralPurpose/AllianceColorGet.vi"/>
 			<Item Name="AllianceColorGlobal.vi" Type="VI" URL="../GeneralPurpose/AllianceColorGlobal.vi"/>
-			<Item Name="HumanGlobal.vi" Type="VI" URL="../Human/HumanGlobal.vi"/>
-			<Item Name="HumanDriveModeENUM.ctl" Type="VI" URL="../Human/HumanDriveModeENUM.ctl"/>
-			<Item Name="HumanGetDeviceReference.vi" Type="VI" URL="../Human/HumanGetDeviceReference.vi"/>
-			<Item Name="HumanProcessDPad.vi" Type="VI" URL="../Human/HumanProcessDPad.vi"/>
-			<Item Name="HumanExecDriveMode.vi" Type="VI" URL="../Human/HumanExecDriveMode.vi"/>
 			<Item Name="DetectChange.vi" Type="VI" URL="../GeneralPurpose/DetectChange.vi"/>
-			<Item Name="HumanSwerveDrive.vi" Type="VI" URL="../Human/HumanSwerveDrive.vi"/>
 			<Item Name="DriveGetGyroIntDirection.vi" Type="VI" URL="../Drive/DriveGetGyroIntDirection.vi"/>
 			<Item Name="DriveGlobal.vi" Type="VI" URL="../Drive/DriveGlobal.vi"/>
-			<Item Name="HumanTrajPositions.vi" Type="VI" URL="../Human/HumanTrajPositions.vi"/>
 			<Item Name="TrajectoryExecuteAbsolute.vi" Type="VI" URL="../Trajectory/TrajectoryExecuteAbsolute.vi"/>
 			<Item Name="TrajectoryGetClosedLoop.vi" Type="VI" URL="../Trajectory/TrajectoryGetClosedLoop.vi"/>
 			<Item Name="TrajectoryGlobals.vi" Type="VI" URL="../Trajectory/TrajectoryGlobals.vi"/>
 			<Item Name="DriveGetSwerveKinematics.vi" Type="VI" URL="../Drive/DriveGetSwerveKinematics.vi"/>
 			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../Trajectory/TrajectoryCalculateOrientation.vi"/>
-			<Item Name="HumanNumbToDriveModeEnum.vi" Type="VI" URL="../Human/HumanNumbToDriveModeEnum.vi"/>
 			<Item Name="DriveSetSpeedDemand.vi" Type="VI" URL="../Drive/DriveSetSpeedDemand.vi"/>
-			<Item Name="HumanBegin.vi" Type="VI" URL="../Human/HumanBegin.vi"/>
 			<Item Name="VisionGetCurrentAbsPose.vi" Type="VI" URL="../Vision/VisionGetCurrentAbsPose.vi"/>
 			<Item Name="TrajectoryCreateAbsoluteSwerve.vi" Type="VI" URL="../Trajectory/TrajectoryCreateAbsoluteSwerve.vi"/>
 			<Item Name="DriveGetYawRaw.vi" Type="VI" URL="../Drive/DriveGetYawRaw.vi"/>
 			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../Drive/DriveGetMaxSpeed.vi"/>
 			<Item Name="JoystickSquare.vi" Type="VI" URL="../GeneralPurpose/JoystickSquare.vi"/>
-			<Item Name="HumanTrajPositionsDash.vi" Type="VI" URL="../Human/HumanTrajPositionsDash.vi"/>
 			<Item Name="TrajectoryCreateExecuteAbsolutePointInFront.vi" Type="VI" URL="../Trajectory/TrajectoryCreateExecuteAbsolutePointInFront.vi"/>
 			<Item Name="TrajectoryCalculateOrientationTowards.vi" Type="VI" URL="../Trajectory/TrajectoryCalculateOrientationTowards.vi"/>
 		</Item>

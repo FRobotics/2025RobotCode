@@ -1,0 +1,9 @@
+CmdElevL1WristFlat- OuterElev:0 InnerElev:22 WristPos:0
+CmdElevL2WristFlat- OuterElev:12 InnerElev:22 WristPos:0
+CmdElevL3WristFlat- OuterElev:33 InnerElev:20 WristPos:0
+CmdElevL4WristSlant- OuterElev:35 InnerElev:22 WristPos:-36
+CmdElevWristRest- OuterElev:0 InnerElev:20 WristPos:-90
+CmdElevAlgae1WristFlat- OuterElev:15 InnerElev:20 WristPos:0
+CmdElevAlgae2WristFlat- OuterElev:35 InnerElev:20 WristPos:0
+CmdElevWristSource- OuterElev:0 InnerElev:0
+CmdElevWristCancel-

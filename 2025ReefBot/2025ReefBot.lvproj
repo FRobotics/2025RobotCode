@@ -45,6 +45,9 @@
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="SIMULATION_Autonomous Independent.vi" Type="VI" URL="../SIMULATION_Autonomous Independent.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		</Item>
 		<Item Name="GeneralPurpose" Type="Folder" URL="../GeneralPurpose">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -896,9 +899,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SIMULATION_Autonomous Independent.vi" Type="VI" URL="../SIMULATION_Autonomous Independent.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Simulate-Robot" Type="EXE">

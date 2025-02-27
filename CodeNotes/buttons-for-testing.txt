@@ -1,0 +1,45 @@
+Current buttons - could be old soon...
+
+Elevator buttons
+
+	left Y - Inc/Dec
+		odd issues...  
+		didn't work as expected!!
+
+	left joy - cancel
+
+	dpad up - L4
+		okay - may have hit inner limit
+	dpad right - L3
+		okay - may have hit inner limit
+	dpad down - L2
+				
+	dpad left - L1
+
+	X - algae 2
+
+	right bumper - algae 1	
+		didn't move
+
+	n/a - barge
+	n/a - source
+
+	b -rest
+
+	start - floor
+		no wrist movement
+
+
+
+Climb
+	Y - reach
+	A - pull
+	right joy - rest - NO SUCH THING
+	left joy - cancel
+
+WRIST 
+	NEED CANCEL
+	right Y - inc/dec
+		does work
+
+		

@@ -14,15 +14,15 @@ Elevator
 ====================
 
 Elevator Begin 
- - Set starting location for inner elevator at 15.5 inches
+ X Set starting location for inner elevator at 15.5 inches
 
 Elevator Execute Logic
- - Wrist and Elevator protections need to account for control
+ X Wrist and Elevator protections need to account for control
    error.  Set elevator position to 20" for protection.  Have
    wrist check for 19.4" for clamping limit.
 
 Elevator Get Position
- - uses wrong global for  inner elevator height.
+ X uses wrong global for  inner elevator height.
 
 Elevator Setpoints
  - Wrist setpoints not correct for elevator positions.
@@ -33,20 +33,20 @@ Wrist
 ====================
 
 Wrist Execute Logic
- - Wrist and Elevator protections need to account for control 
+ X Wrist and Elevator protections need to account for control 
    error.  Set elevator position to 20" for protection.  Have 
    wrist check for 19.4" for clamping limit
 
- - For "rest" clamping, allow for driver position error.  Set 
+ X For "rest" clamping, allow for driver position error.  Set 
    limit to -85 instead of -90.
 
- - Set low wrist clamp limit to 0 instead of -10 when elev 
+ X Set low wrist clamp limit to 0 instead of -10 when elev 
    below 19.4.
 
- - Set upper limit for inner elevator to 23.5  Verify.
+ X Set upper limit for inner elevator to 23.5  Verify.
 
 Wrist Network
- - Add network variable write for pre-clamp setpoint.
+ X Add network variable write for pre-clamp setpoint.
 
 ====================
 Human

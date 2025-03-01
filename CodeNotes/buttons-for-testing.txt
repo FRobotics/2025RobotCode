@@ -33,6 +33,7 @@ Elevator buttons
 
 Climb
 	Y - reach
+
 	A - pull
 	right joy - rest - NO SUCH THING
 	left joy - cancel

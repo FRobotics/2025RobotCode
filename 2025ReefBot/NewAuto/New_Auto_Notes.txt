@@ -12,11 +12,107 @@ New Auto Functions and Parameters
 		p2 - max speed
 
 	FollowAbsoluteTrajectory
+		timout - used
+		p1 - index into trajectory (1-30)
+		p2 - ending absolute orientation (degrees)
 
 	FollowRelativeTrajectory
+		timout - used
+		p1 - index into trajectory (1-30)
+		p2 - ending relative orientation (degrees)
 
-	MakeTrajectory (may not need)
+	AutoWait
+		timeout - used
 
-	SetTrajectory (may not need)
+	ElevToRest
+		none
+
+	ElevToSource
+		none
+
+	ElevToL1
+		none
+
+	ElevToL2
+		none
+
+	ElevToL3
+		none
+
+	ElevToL4
+		none
+
+	ElevToAlgae1
+		none
+
+	ElevToAlgae2
+		none
+
+	ElevCancel
+		none
+
+	IntakeCoral
+		none
+
+	IntakeAlgae
+		none
+
+	IntakeDepositCoral
+		none
+
+	IntakeDepositAlgae
+		none
+
+	IntakeCancel
+		none
+
+	ElevRestWait
+		timeout - used
+
+	ElevSourceWait
+		timeout - used
+
+	ElevL1Wait
+		timeout - used
+
+	ElevL2Wait
+		timeout - used
+
+	ElevL3Wait
+		timeout - used
+
+	ElevL4Wait
+		timeout - used
+
+	ElevAlgae1Wait
+		timeout - used
+
+	ElevAlgae2Wait
+		timeout - used
+
+	ElevToFloor
+		none
+
+	ElevToBarge
+		none
+
+	ElevFloorWait
+		timeout - used
+	
+	ElevBargeWait
+		timeout - used
+
+
+ ----- NEED COMMANDS -----
+	WristWait - maybe encorporate into 
+		elev waits...
+	IntakeWait - if timeout occurs, do
+		intake cancel.
+ 
+
+
+	
+
+	
 
 	

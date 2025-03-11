@@ -1104,6 +1104,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Wrist" Type="Folder" URL="../Wrist">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CopyDeployToRobRIO.bat" Type="Document" URL="../CopyDeployToRobRIO.bat"/>
+		<Item Name="RoboRIODeployScript.txt" Type="Document" URL="../RoboRIODeployScript.txt"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

@@ -1,0 +1,31 @@
+#-------- Set some options
+option echo on
+option batch on
+option confirm off
+
+#--------debug.  Local directory should be project directory
+lpwd
+
+#-------- Connect
+open sftp://admin@10.41.50.2/ 
+#  -hostkey="ssh-rsa 2048 xxxxxxxxxxx..."
+
+#-------- Change remote directory
+cd "/home/lvuser/natinst/LabVIEW Data"
+pwd
+
+#-------- Change local directory
+#-------- batch file changes local directory to project directory
+#-------- before calling script.
+lcd Deploy
+lpwd
+
+# -------- Put files from deploy directory.
+put *.*
+ls
+
+# -------- Disconnect
+close
+
+# -------- Exit WinSCP
+exit

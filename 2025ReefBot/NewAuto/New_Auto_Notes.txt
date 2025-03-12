@@ -1,5 +1,24 @@
-New Auto Functions and Parameters
+--------------
+General Notes
+--------------\
 
+2025 Robot Auto Routine files are located at:
+
+C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy
+
+Note: 	Some computers may have named directory for the github
+	repository differently.
+
+Auto file names are:
+	AutoCmds001.csv through
+	AutoCmds030.csv
+
+Do not change them.  The robot code is programmed to read these
+files.
+
+---------------------------------
+New Auto Functions and Parameters
+----------------------------------
 
 	DriveStraight
 		timeout - used
@@ -102,17 +121,25 @@ New Auto Functions and Parameters
 	ElevBargeWait
 		timeout - used
 
-
  ----- NEED COMMANDS -----
 	WristWait - maybe encorporate into 
 		elev waits...
+
 	IntakeWait - if timeout occurs, do
 		intake cancel.
+	
+	FollowAbsoluteTrajectoryWithTimedAction
+		timout - used
+		p1 - index into trajectory (1-30)
+		p2 - ending absolute orientation (degrees)
+		p3 - relative time for action (seconds)
+		p4(string) - name of action command.
+
+	FollowRelativeTrajectoryWithTimedAction
+		timout - used
+		p1 - index into trajectory (1-30)
+		p2 - ending relative orientation (degrees)
+		p3 - relative time for action (seconds)
+		p4(string) - name of action command.
  
-
-
-	
-
-	
-
 	

@@ -71,6 +71,7 @@
 		<Item Name="Wrist" Type="Folder" URL="../Wrist">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="2025ReefBotSim.ico" Type="Document" URL="../2025ReefBotSim.ico"/>
 		<Item Name="CopyDeployToSimulationDirectory.bat" Type="Document" URL="../CopyDeployToSimulationDirectory.bat"/>
 		<Item Name="Simulate-Robot.vi" Type="VI" URL="../Simulate-Robot.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -920,7 +921,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{53B460D3-9EF5-47AA-916D-BA20014D9140}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulate-Robot.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulate-Robot/Simulate-Robot.exe</Property>
@@ -933,7 +934,8 @@
 				<Property Name="Destination[3].destName" Type="Str">FieldInfo</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulate-Robot/FieldInfo</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{37BF25E1-6B9C-4945-9239-71C3323E8C25}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/2025ReefBotSim.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{184BC3A9-1128-460C-93BE-146FF7164F70}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simulate-Robot.vi</Property>
@@ -1034,7 +1036,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3F4BB300-3B31-4E05-B457-A7FE9A9343CD}</Property>
 				<Property Name="INST_installerName" Type="Str">SimulateRobotSetup</Property>
 				<Property Name="INST_productName" Type="Str">SimulateRobot</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">FRC 4150</Property>

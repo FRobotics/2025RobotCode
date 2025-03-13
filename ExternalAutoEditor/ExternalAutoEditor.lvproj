@@ -20,6 +20,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FPGA_SystemAsync VI Agent.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsync VI Agent.vi"/>
@@ -90,7 +91,10 @@
 			<Item Name="AutoDriveStraight.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoDriveStraight.vi"/>
 			<Item Name="AutoElevReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoElevReadyWait.vi"/>
 			<Item Name="AutoFollowAbsoluteTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsoluteTrajectoryNEW.vi"/>
+			<Item Name="AutoFollowAbsTrajWithTimedCmd.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsTrajWithTimedCmd.vi"/>
 			<Item Name="AutoFollowRelativeTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelativeTrajectoryNEW.vi"/>
+			<Item Name="AutoFollowRelTrajWithTimedCmd.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelTrajWithTimedCmd.vi"/>
+			<Item Name="AutoIntakeReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoIntakeReadyWait.vi"/>
 			<Item Name="AutoTurn.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoTurn.vi"/>
 			<Item Name="AutoWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoWait.vi"/>
 			<Item Name="DriveGetDist.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetDist.vi"/>
@@ -123,6 +127,9 @@
 			<Item Name="IntakeCoralSendCmd.vi" Type="VI" URL="../../2025ReefBot/Intake/IntakeCoralSendCmd.vi"/>
 			<Item Name="IntakeDepositAlgaeSendCmd.vi" Type="VI" URL="../../2025ReefBot/Intake/IntakeDepositAlgaeSendCmd.vi"/>
 			<Item Name="IntakeDepositCoralSendCmd.vi" Type="VI" URL="../../2025ReefBot/Intake/IntakeDepositCoralSendCmd.vi"/>
+			<Item Name="IntakeGlobal.vi" Type="VI" URL="../../2025ReefBot/Intake/IntakeGlobal.vi"/>
+			<Item Name="IntakeIsReady.vi" Type="VI" URL="../../2025ReefBot/Intake/IntakeIsReady.vi"/>
+			<Item Name="IntakeStates.ctl" Type="VI" URL="../../2025ReefBot/Intake/IntakeStates.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -134,13 +141,19 @@
 			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCalculateOrientation.vi"/>
 			<Item Name="TrajectoryCommonTuning.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCommonTuning.vi"/>
 			<Item Name="TrajectoryExecuteAbsolute.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsolute.vi"/>
+			<Item Name="TrajectoryExecuteAbsWithTimedCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsWithTimedCmd.vi"/>
 			<Item Name="TrajectoryExecuteRelative.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelative.vi"/>
+			<Item Name="TrajectoryExecuteRelWithTimedCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelWithTimedCmd.vi"/>
 			<Item Name="TrajectoryGetClosedLoop.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGetClosedLoop.vi"/>
 			<Item Name="TrajectoryGlobals.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGlobals.vi"/>
+			<Item Name="TrajectoryIssueCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryIssueCmd.vi"/>
+			<Item Name="TrajectoryProcessTimedCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryProcessTimedCmd.vi"/>
 			<Item Name="VisionGetCurrentAbsPose.vi" Type="VI" URL="../../2025ReefBot/Vision/VisionGetCurrentAbsPose.vi"/>
 			<Item Name="VisionGlobal.vi" Type="VI" URL="../../2025ReefBot/Vision/VisionGlobal.vi"/>
+			<Item Name="WristAtSetpoint.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristAtSetpoint.vi"/>
 			<Item Name="WristCancelSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristCancelSendCmd.vi"/>
 			<Item Name="WristFlatSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristFlatSendCmd.vi"/>
+			<Item Name="WristGlobal.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristGlobal.vi"/>
 			<Item Name="WristRestSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristRestSendCmd.vi"/>
 			<Item Name="WristSlantSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristSlantSendCmd.vi"/>
 			<Item Name="WristSourceSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristSourceSendCmd.vi"/>
@@ -162,7 +175,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F907593-39FA-48D1-934B-B871C6E23A60}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutoEditor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/AutoEditor.exe/AutoEditor.exe</Property>
@@ -252,7 +265,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{295A43CA-500E-423A-9BD2-29AB3A5DA54F}</Property>
 				<Property Name="INST_installerName" Type="Str">AutoEditorSetup</Property>
 				<Property Name="INST_productName" Type="Str">AutoEditor</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">FRC 4150</Property>

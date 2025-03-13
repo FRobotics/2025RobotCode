@@ -162,7 +162,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F907593-39FA-48D1-934B-B871C6E23A60}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutoEditor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/AutoEditor.exe/AutoEditor.exe</Property>
@@ -252,7 +252,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{295A43CA-500E-423A-9BD2-29AB3A5DA54F}</Property>
 				<Property Name="INST_installerName" Type="Str">AutoEditorSetup</Property>
 				<Property Name="INST_productName" Type="Str">AutoEditor</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">FRC 4150</Property>

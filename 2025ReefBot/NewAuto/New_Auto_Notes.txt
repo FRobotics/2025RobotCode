@@ -122,20 +122,18 @@ New Auto Functions and Parameters
 		timeout - used
 
  ----- NEED COMMANDS -----
-	WristWait - maybe encorporate into 
-		elev waits...
-
-	IntakeWait - if timeout occurs, do
-		intake cancel.
+	IntakeWait - if timeout occurs, do intake cancel.
+		timout - used
+		
 	
-	FollowAbsoluteTrajectoryWithTimedAction
+	FollowAbsTrajWithTimedCmd
 		timout - used
 		p1 - index into trajectory (1-30)
 		p2 - ending absolute orientation (degrees)
 		p3 - relative time for action (seconds)
 		p4(string) - name of action command.
 
-	FollowRelativeTrajectoryWithTimedAction
+	FollowRelTrajWithTimedCmd
 		timout - used
 		p1 - index into trajectory (1-30)
 		p2 - ending relative orientation (degrees)

@@ -149,6 +149,8 @@
 			<Item Name="TrajectoryIssueCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryIssueCmd.vi"/>
 			<Item Name="VisionGetCurrentAbsPose.vi" Type="VI" URL="../../2025ReefBot/Vision/VisionGetCurrentAbsPose.vi"/>
 			<Item Name="VisionGlobal.vi" Type="VI" URL="../../2025ReefBot/Vision/VisionGlobal.vi"/>
+			<Item Name="WristAlgae1SendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristAlgae1SendCmd.vi"/>
+			<Item Name="WristAlgae2SendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristAlgae2SendCmd.vi"/>
 			<Item Name="WristAtSetpoint.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristAtSetpoint.vi"/>
 			<Item Name="WristCancelSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristCancelSendCmd.vi"/>
 			<Item Name="WristFlatSendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristFlatSendCmd.vi"/>
@@ -170,26 +172,23 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/AutoEditor.exe</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/AutoEditor</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3F907593-39FA-48D1-934B-B871C6E23A60}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AutoEditor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/AutoEditor.exe/AutoEditor.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/AutoEditor/AutoEditor.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/AutoEditor.exe/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/AutoEditor/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">BaseExecutableDir</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/AutoEditor.exe</Property>
-				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/AutoEditor</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AutoEditor.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{077D401F-E237-486B-A738-25BA1F9B864E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{134BFDD1-B518-424D-B97D-934BFFC19DCB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/EditorInterface.vi</Property>
@@ -258,13 +257,13 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">FRC 4150</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/AutoEditorSetup</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToProject</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/ExternalAutoEditor/AutoEditorSetup</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">AutoEditorSetup</Property>
 				<Property Name="INST_defaultDir" Type="Str">{295A43CA-500E-423A-9BD2-29AB3A5DA54F}</Property>
 				<Property Name="INST_installerName" Type="Str">AutoEditorSetup</Property>
 				<Property Name="INST_productName" Type="Str">AutoEditor</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">FRC 4150</Property>

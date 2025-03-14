@@ -6,11 +6,11 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
+<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory004.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from between R2-R3 robot starting line to reef L22 Right</Val>
+<Val>moves from barge to reef L20</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,19 +20,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.17852121212121</Val>
+<Val>5.13883905723906</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>3.13417009345794</Val>
+<Val>5.07620186915888</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-1.04719755119660</Val>
+<Val>1.04719755119660</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>2.20000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.62000000000000</Val>
+<Val>7.51976835016835</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.53810093457944</Val>
+<Val>6.11451588785047</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -52,7 +52,7 @@
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.00000000000000</Val>
+<Val>1.50000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -81,7 +81,7 @@
 </Boolean>
 <Boolean>
 <Name>DiffDrKineConstntDefined</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <Boolean>
 <Name>CentAcellConstntDefined</Name>
@@ -96,14 +96,14 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>2.54000000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.71120000000000</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 </Cluster>
 <DBL>

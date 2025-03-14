@@ -632,29 +632,29 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Robot_Disabled.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/Robot_Disabled.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../../2025ReefBot/Robot Global Data.vi"/>
-			<Item Name="DriveGetYawRaw.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetYawRaw.vi"/>
-			<Item Name="DriveGlobal.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGlobal.vi"/>
-			<Item Name="DriveGetModulePositions.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetModulePositions.vi"/>
-			<Item Name="DriveGetSwerveKinematics.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetSwerveKinematics.vi"/>
-			<Item Name="AllianceColorGet.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGet.vi"/>
-			<Item Name="AllianceColorGlobal.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGlobal.vi"/>
-			<Item Name="AllianceDriverStationGet.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceDriverStationGet.vi"/>
-			<Item Name="DetectChange.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/DetectChange.vi"/>
-			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetMaxSpeed.vi"/>
-			<Item Name="JoystickSquare.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/JoystickSquare.vi"/>
-			<Item Name="DriveGetRobotStartingOrientation.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetRobotStartingOrientation.vi"/>
 			<Item Name="TrajectoryCreateExecuteAbsolutePointInFront.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateExecuteAbsolutePointInFront.vi"/>
 			<Item Name="TrajectoryGetClosedLoop.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGetClosedLoop.vi"/>
 			<Item Name="TrajectoryGlobals.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGlobals.vi"/>
 			<Item Name="TrajectoryCommonTuning.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCommonTuning.vi"/>
 			<Item Name="TrajectoryCreateAbsoluteSwerve.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateAbsoluteSwerve.vi"/>
 			<Item Name="TrajectoryCalculateOrientationTowards.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCalculateOrientationTowards.vi"/>
-			<Item Name="BooleanToggle.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/BooleanToggle.vi"/>
-			<Item Name="DriveSetSpeedDemand.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveSetSpeedDemand.vi"/>
 			<Item Name="TrajectoryCreateExecuteAbsolute.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateExecuteAbsolute.vi"/>
 			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCalculateOrientation.vi"/>
+			<Item Name="DriveGetSwerveKinematics.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetSwerveKinematics.vi"/>
+			<Item Name="DriveGlobal.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGlobal.vi"/>
+			<Item Name="DriveGetModulePositions.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetModulePositions.vi"/>
+			<Item Name="DriveGetYawRaw.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetYawRaw.vi"/>
+			<Item Name="DriveGetMaxSpeed.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetMaxSpeed.vi"/>
+			<Item Name="DriveGetRobotStartingOrientation.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetRobotStartingOrientation.vi"/>
+			<Item Name="DriveSetSpeedDemand.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveSetSpeedDemand.vi"/>
+			<Item Name="Robot_Disabled.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/Robot_Disabled.vi"/>
+			<Item Name="AllianceColorGet.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGet.vi"/>
+			<Item Name="AllianceColorGlobal.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGlobal.vi"/>
+			<Item Name="AllianceDriverStationGet.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceDriverStationGet.vi"/>
+			<Item Name="DetectChange.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/DetectChange.vi"/>
+			<Item Name="JoystickSquare.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/JoystickSquare.vi"/>
+			<Item Name="BooleanToggle.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/BooleanToggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -718,7 +718,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C80D7208-DBE2-4334-BF32-005C651CF7DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>

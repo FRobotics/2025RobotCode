@@ -121,7 +121,6 @@ New Auto Functions and Parameters
 	ElevBargeWait
 		timeout - used
 
- ----- NEED COMMANDS -----
 	IntakeWait - if timeout occurs, do intake cancel.
 		timout - used
 		
@@ -132,6 +131,7 @@ New Auto Functions and Parameters
 		p2 - ending absolute orientation (degrees)
 		p3 - relative time for action (seconds)
 		p4(string) - name of action command.
+			SEE BELOW FOR LIST OF COMMANDS
 
 	FollowRelTrajWithTimedCmd
 		timout - used
@@ -139,5 +139,53 @@ New Auto Functions and Parameters
 		p2 - ending relative orientation (degrees)
 		p3 - relative time for action (seconds)
 		p4(string) - name of action command.
+			SEE BELOW FOR LIST OF COMMANDS
+
+----------------------------------------------------
+LIST OF COMMANDS:
+	CASE MATTERS !!!!
+	ELEVATOR COMMANDS ALSO SET WRIST POSITION
+	
+	ElevAlgae1
+	ElevAlgae2
+	ElevBarge
+	ElevCancel
+	ElevDec
+	ElevFloor
+	ElevInc
+	ElevL1
+	ElevL2
+	ElevL3
+	ElevL4
+	ElevProcessor
+	ElevRest
+	ElevSource
+	
+	IntakeAlgae
+	IntakeCancel
+	IntakeCoral
+	IntakeDepositAlgae
+	IntakeDepositCoral
+
+	ClimbCancel
+	ClimbIncPull
+	ClimbIncReach
+	ClimbPull
+	ClimbReach
+	
+	WristAlgae1
+	WristAlgae2
+	WristCancel
+	WristDec
+	WristFlat
+	WristInc
+	WristRest
+	WristSlant
+	WristSource
+	
+---------------------------------------------
+
+
+	
  
 	

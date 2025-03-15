@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -20,26 +20,6 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.17852121212121</Val>
-</DBL>
-<DBL>
-<Name>Y</Name>
-<Val>3.13417009345794</Val>
-</DBL>
-<DBL>
-<Name>ANGLE</Name>
-<Val>-1.04719755119660</Val>
-</DBL>
-<DBL>
-<Name>WEIGHT</Name>
-<Val>2.20000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>UTIL_WEIGHTED_WAYPOINT</Name>
-<NumElts>4</NumElts>
-<DBL>
-<Name>X</Name>
 <Val>7.62000000000000</Val>
 </DBL>
 <DBL>
@@ -48,11 +28,31 @@
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.00000000000000</Val>
+<Val>3.14159265358979</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
 <Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>5.17852660000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>3.13418220000000</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>2.89724655831059</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>2.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -276,7 +276,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -284,7 +284,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -292,7 +292,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -300,7 +300,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>

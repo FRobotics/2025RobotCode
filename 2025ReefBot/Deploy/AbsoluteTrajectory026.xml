@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>Starts at Coral Station 1, moves to R6</Val>
+<Val>Moves from Coral Station 1 to R6</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,19 +20,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>16.38872996632997</Val>
+<Val>16.15972638000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.73066542056075</Val>
+<Val>1.39508484000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>2.23402144255274</Val>
+<Val>2.00712863979348</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.20000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -40,19 +40,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>13.84907205387205</Val>
+<Val>13.93426728000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>3.13417009345794</Val>
+<Val>2.83856176000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>2.14675497995302</Val>
+<Val>2.18166156499291</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>2.00000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>

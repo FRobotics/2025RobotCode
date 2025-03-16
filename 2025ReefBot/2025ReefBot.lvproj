@@ -1206,7 +1206,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Wrist" Type="Folder" URL="../Wrist">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="AutoSpreadsheet.url" Type="Document" URL="../AutoSpreadsheet.url"/>
 		<Item Name="CopyDeployToRobRIO.bat" Type="Document" URL="../CopyDeployToRobRIO.bat"/>
+		<Item Name="ProgrammingTodoList.url" Type="Document" URL="../ProgrammingTodoList.url"/>
 		<Item Name="RoboRIODeployScript.txt" Type="Document" URL="../RoboRIODeployScript.txt"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -1925,7 +1927,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

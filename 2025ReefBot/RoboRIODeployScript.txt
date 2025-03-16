@@ -7,8 +7,7 @@ option confirm off
 lpwd
 
 #-------- Connect
-open sftp://admin@10.41.50.2/ 
-#  -hostkey="ssh-rsa 2048 xxxxxxxxxxx..."
+open sftp://admin@10.41.50.2/  -hostkey="ssh-ed25519 255 9jYKhJn3aGrb6/rQhJHYK9xpvpiaLyWqyyZWpbjRsak="
 
 #-------- Change remote directory
 cd "/home/lvuser/natinst/LabVIEW Data"

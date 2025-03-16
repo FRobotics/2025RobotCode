@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
+<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -20,11 +20,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.62000000000000</Val>
+<Val>7.06120000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.53810093457944</Val>
+<Val>2.46118878504673</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -103,7 +103,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.71120000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
@@ -276,7 +276,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -284,7 +284,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -292,7 +292,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -300,7 +300,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>

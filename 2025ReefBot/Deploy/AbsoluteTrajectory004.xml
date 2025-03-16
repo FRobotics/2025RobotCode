@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from barge to reef L20</Val>
+<Val>moves from  reef L22 to mid coral station</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,15 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.13883905723906</Val>
+<Val>7.06120000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.07620186915888</Val>
+<Val>6.16432600000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.04719755119660</Val>
+<Val>3.14159265358979</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,19 +40,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.51976835016835</Val>
+<Val>5.36455620000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.11451588785047</Val>
+<Val>5.21324840000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.00000000000000</Val>
+<Val>4.36332312998582</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.50000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>

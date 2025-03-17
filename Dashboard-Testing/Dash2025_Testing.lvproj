@@ -56,6 +56,9 @@
 		<Item Name="Human" Type="Folder" URL="../../2025ReefBot/Human">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="NewAuto" Type="Folder" URL="../../2025ReefBot/NewAuto">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dashboard_Main_Fixed_1280_768.vi" Type="VI" URL="../Dashboard_Main_Fixed_1280_768.vi"/>
 		<Item Name="Dashboard_Main_Fixed_1366_768.vi" Type="VI" URL="../Dashboard_Main_Fixed_1366_768.vi"/>
@@ -655,6 +658,25 @@
 			<Item Name="DetectChange.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/DetectChange.vi"/>
 			<Item Name="JoystickSquare.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/JoystickSquare.vi"/>
 			<Item Name="BooleanToggle.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/BooleanToggle.vi"/>
+			<Item Name="AutoDriveStraight.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoDriveStraight.vi"/>
+			<Item Name="ActDriveStraight.vi" Type="VI" URL="../../2025ReefBot/Actions/ActDriveStraight.vi"/>
+			<Item Name="PositionControl.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/PositionControl.vi"/>
+			<Item Name="ActDriveStraightCalcError-ALT.vi" Type="VI" URL="../../2025ReefBot/Actions/ActDriveStraightCalcError-ALT.vi"/>
+			<Item Name="DriveGetDist.vi" Type="VI" URL="../../2025ReefBot/Drive/DriveGetDist.vi"/>
+			<Item Name="AutoTurn.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoTurn.vi"/>
+			<Item Name="ActTurn.vi" Type="VI" URL="../../2025ReefBot/Actions/ActTurn.vi"/>
+			<Item Name="AutoFollowAbsoluteTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsoluteTrajectoryNEW.vi"/>
+			<Item Name="TrajectoryExecuteAbsolute.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsolute.vi"/>
+			<Item Name="AutoFollowRelativeTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelativeTrajectoryNEW.vi"/>
+			<Item Name="TrajectoryExecuteRelative.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelative.vi"/>
+			<Item Name="AutoWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoWait.vi"/>
+			<Item Name="AutoElevReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoElevReadyWait.vi"/>
+			<Item Name="AutoIntakeReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoIntakeReadyWait.vi"/>
+			<Item Name="AutoFollowAbsoluteTrajectoryNEWCommandInterrupt.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsoluteTrajectoryNEWCommandInterrupt.vi"/>
+			<Item Name="TrajectoryExecuteAbsoluteInterrupt.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsoluteInterrupt.vi"/>
+			<Item Name="TrajectoryIssueCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryIssueCmd.vi"/>
+			<Item Name="AutoFollowRelativeTrajectoryNEWCommandInterupt.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelativeTrajectoryNEWCommandInterupt.vi"/>
+			<Item Name="TrajectoryExecuteRelativeInterrupt.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelativeInterrupt.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -718,7 +740,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C80D7208-DBE2-4334-BF32-005C651CF7DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>

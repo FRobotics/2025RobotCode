@@ -6,11 +6,11 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\GitHub\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory025.xml</Val>
+<Val>C:\Shares\GitHub\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory012.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>starts at R2, moves to R11</Val>
+<Val>moves from B1 to R20 (said reef 20 so I asumed it meant right)</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,15 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>10.21815488215488</Val>
+<Val>7.48008619528620</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>1.96125981308411</Val>
+<Val>4.82623738317757</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>3.49065850398821E-2</Val>
+<Val>3.10668606854990</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.41737928000000</Val>
+<Val>5.13071872000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.58623562000000</Val>
+<Val>5.46556438000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.11701072127637</Val>
+<Val>-1.88495559215388</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>

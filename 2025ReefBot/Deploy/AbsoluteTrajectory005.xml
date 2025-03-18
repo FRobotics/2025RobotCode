@@ -20,35 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1.07141818181818</Val>
+<Val>5.41536128000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>7.21051401869159</Val>
+<Val>5.30122638000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-1.04719755119660</Val>
-</DBL>
-<DBL>
-<Name>WEIGHT</Name>
-<Val>2.00000000000000</Val>
-</DBL>
-</Cluster>
-<Cluster>
-<Name>UTIL_WEIGHTED_WAYPOINT</Name>
-<NumElts>4</NumElts>
-<DBL>
-<Name>X</Name>
-<Val>4.36503703703704</Val>
-</DBL>
-<DBL>
-<Name>Y</Name>
-<Val>6.47984859813084</Val>
-</DBL>
-<DBL>
-<Name>ANGLE</Name>
-<Val>-1.32645023151569</Val>
+<Val>1.37881010907552</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -60,19 +40,39 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.15868013468013</Val>
+<Val>3.86901010101010</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.15311401869159</Val>
+<Val>6.24911214953271</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-2.09439510239320</Val>
+<Val>-0.15707963267949</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.20000000000000</Val>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>1.38862562000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>6.65671516000000</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>1.81514242207410</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -296,7 +296,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -304,7 +304,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -312,7 +312,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -352,7 +352,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>

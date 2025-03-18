@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from mid coral station 13 to reef L19</Val>
+<Val>moves from mid coral station 13 to reef R19</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>3.61408472000000</Val>
+<Val>3.56328472000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.21323824000000</Val>
+<Val>5.30122638000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>

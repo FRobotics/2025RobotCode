@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory031.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory031.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -61,7 +61,7 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>2.54000000000000</Val>
+<Val>0.50800000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
@@ -96,7 +96,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>2.54000000000000</Val>
+<Val>0.50800000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -128,7 +128,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>2.54000000000000</Val>
+<Val>0.50800000000000</Val>
 </DBL>
 <Cluster>
 <Name>SwerveKinematics</Name>

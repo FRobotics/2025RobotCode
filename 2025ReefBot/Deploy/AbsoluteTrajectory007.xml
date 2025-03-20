@@ -61,7 +61,7 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>2.54000000000000</Val>
+<Val>0.45720000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
@@ -96,7 +96,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>2.54000000000000</Val>
+<Val>0.45720000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -128,7 +128,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>2.54000000000000</Val>
+<Val>0.45720000000000</Val>
 </DBL>
 <Cluster>
 <Name>SwerveKinematics</Name>

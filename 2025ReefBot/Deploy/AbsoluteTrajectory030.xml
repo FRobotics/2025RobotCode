@@ -32,7 +32,7 @@
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -52,7 +52,7 @@
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>1.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -60,11 +60,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.36448000000000</Val>
+<Val>5.38043628000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.83845000000000</Val>
+<Val>2.81106372000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -72,7 +72,7 @@
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>0.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -123,7 +123,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.50800000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>1.52400000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>

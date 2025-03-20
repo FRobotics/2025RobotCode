@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -123,7 +123,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.50800000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.60960000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>

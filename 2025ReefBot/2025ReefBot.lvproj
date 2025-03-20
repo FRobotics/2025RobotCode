@@ -47,6 +47,9 @@
 		<Item Name="NewAuto" Type="Folder" URL="../NewAuto">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="NT_Helper" Type="Folder" URL="../NT_Helper">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="SimulateDrive" Type="Folder" URL="../SimulateDrive">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -1136,6 +1139,9 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="NewAuto" Type="Folder" URL="../NewAuto">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="NT_Helper" Type="Folder" URL="../NT_Helper">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Support Code" Type="Folder">

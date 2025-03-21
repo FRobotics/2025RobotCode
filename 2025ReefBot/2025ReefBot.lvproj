@@ -77,6 +77,8 @@
 		<Item Name="2025ReefBotSim.ico" Type="Document" URL="../2025ReefBotSim.ico"/>
 		<Item Name="CopyDeployToSimulationDirectory.bat" Type="Document" URL="../CopyDeployToSimulationDirectory.bat"/>
 		<Item Name="Simulate-Robot.vi" Type="VI" URL="../Simulate-Robot.vi"/>
+		<Item Name="UseAuto30_Blue_Right.bat" Type="Document" URL="../UseAuto30_Blue_Right.bat"/>
+		<Item Name="UseAuto30_Red_Right.bat" Type="Document" URL="../UseAuto30_Red_Right.bat"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Honeywell Compass HMC6343 Simulator.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Honeywell Compass HMC6343/HAIOL/Simulator/Honeywell Compass HMC6343 Simulator.lvclass"/>
@@ -879,7 +881,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{53B460D3-9EF5-47AA-916D-BA20014D9140}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulate-Robot.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulate-Robot/Simulate-Robot.exe</Property>
@@ -994,7 +996,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{3F4BB300-3B31-4E05-B457-A7FE9A9343CD}</Property>
 				<Property Name="INST_installerName" Type="Str">SimulateRobotSetup</Property>
 				<Property Name="INST_productName" Type="Str">SimulateRobot</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23308000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">FRC 4150</Property>
@@ -1172,6 +1174,8 @@ AddOutputFilter chunkFilter
 		<Item Name="ProgrammingTodoList.url" Type="Document" URL="../ProgrammingTodoList.url"/>
 		<Item Name="RoboRIODeployScript.txt" Type="Document" URL="../RoboRIODeployScript.txt"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="UseAuto30_Blue_Right.bat" Type="Document" URL="../UseAuto30_Blue_Right.bat"/>
+		<Item Name="UseAuto30_Red_Right.bat" Type="Document" URL="../UseAuto30_Red_Right.bat"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

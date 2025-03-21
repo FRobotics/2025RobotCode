@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory028-Red-Right.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory028.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -20,15 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>10.48705040000000</Val>
+<Val>7.06120000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.59071780000000</Val>
+<Val>2.46118878504673</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.00000000000000</Val>
+<Val>3.14159265358979</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.16766172000000</Val>
+<Val>5.38043628000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.24073628000000</Val>
+<Val>2.81106372000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-0.17453292519943</Val>
+<Val>2.89712438526295</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>

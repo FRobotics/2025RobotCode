@@ -6,11 +6,11 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory029-Red-Right.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory029-Blu-Right.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>Move from RED Reef F to source </Val>
+<Val>Move from BLUE Reef F to source </Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,15 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.16766172000000</Val>
+<Val>5.38043120000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.24073628000000</Val>
+<Val>2.81106880000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>2.09439510239320</Val>
+<Val>-1.04719755119660</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.11178680000000</Val>
+<Val>5.43645521885522</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.09064060000000</Val>
+<Val>1.96125981308411</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.92502450355699</Val>
+<Val>-2.21656815003280</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -60,15 +60,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>15.12763040000000</Val>
+<Val>2.42061144781145</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.26369080000000</Val>
+<Val>1.78820747663551</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.11906636157105</Val>
+<Val>-3.02251984380062</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -80,15 +80,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>16.13733374000000</Val>
+<Val>1.41101826000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.62589226000000</Val>
+<Val>1.42590774000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.94247779607694</Val>
+<Val>-2.19911485751286</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>

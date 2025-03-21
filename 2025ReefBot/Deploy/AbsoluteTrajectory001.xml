@@ -6,11 +6,11 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory001.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from between R2-R3 robot starting line to reef L22 Right</Val>
+<Val>moves from between R2-R3 robot starting line to reef 22 Right</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.41536128000000</Val>
+<Val>5.36456128000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.75057362000000</Val>
+<Val>2.83856176000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>

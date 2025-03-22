@@ -62,6 +62,9 @@
 		<Item Name="Drive" Type="Folder" URL="../../2025ReefBot/Drive">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Trajectory" Type="Folder" URL="../../2025ReefBot/Trajectory">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dashboard_Main_Fixed_1280_768.vi" Type="VI" URL="../Dashboard_Main_Fixed_1280_768.vi"/>
 		<Item Name="Dashboard_Main_Fixed_1366_768.vi" Type="VI" URL="../Dashboard_Main_Fixed_1366_768.vi"/>
@@ -71,6 +74,8 @@
 		<Item Name="OLD_Dashboard Main_Fixed_1280x768.vi" Type="VI" URL="../OLD_Dashboard Main_Fixed_1280x768.vi"/>
 		<Item Name="FieldDisplaySmall.vi" Type="VI" URL="../FieldDisplaySmall.vi"/>
 		<Item Name="DriveModuleTrend.vi" Type="VI" URL="../DriveModuleTrend.vi"/>
+		<Item Name="TrajectoryTrend.vi" Type="VI" URL="../TrajectoryTrend.vi"/>
+		<Item Name="Dash_Globals.vi" Type="VI" URL="../Dash_Globals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -853,14 +858,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../../2025ReefBot/Robot Global Data.vi"/>
-			<Item Name="TrajectoryCreateExecuteAbsolutePointInFront.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateExecuteAbsolutePointInFront.vi"/>
-			<Item Name="TrajectoryGetClosedLoop.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGetClosedLoop.vi"/>
-			<Item Name="TrajectoryGlobals.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryGlobals.vi"/>
-			<Item Name="TrajectoryCommonTuning.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCommonTuning.vi"/>
-			<Item Name="TrajectoryCreateAbsoluteSwerve.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateAbsoluteSwerve.vi"/>
-			<Item Name="TrajectoryCalculateOrientationTowards.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCalculateOrientationTowards.vi"/>
-			<Item Name="TrajectoryCreateExecuteAbsolute.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCreateExecuteAbsolute.vi"/>
-			<Item Name="TrajectoryCalculateOrientation.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryCalculateOrientation.vi"/>
 			<Item Name="Robot_Disabled.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/Robot_Disabled.vi"/>
 			<Item Name="AllianceColorGet.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGet.vi"/>
 			<Item Name="AllianceColorGlobal.vi" Type="VI" URL="../../2025ReefBot/GeneralPurpose/AllianceColorGlobal.vi"/>
@@ -875,17 +872,12 @@
 			<Item Name="AutoTurn.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoTurn.vi"/>
 			<Item Name="ActTurn.vi" Type="VI" URL="../../2025ReefBot/Actions/ActTurn.vi"/>
 			<Item Name="AutoFollowAbsoluteTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsoluteTrajectoryNEW.vi"/>
-			<Item Name="TrajectoryExecuteAbsolute.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsolute.vi"/>
 			<Item Name="AutoFollowRelativeTrajectoryNEW.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelativeTrajectoryNEW.vi"/>
-			<Item Name="TrajectoryExecuteRelative.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelative.vi"/>
 			<Item Name="AutoWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoWait.vi"/>
 			<Item Name="AutoElevReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoElevReadyWait.vi"/>
 			<Item Name="AutoIntakeReadyWait.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoIntakeReadyWait.vi"/>
 			<Item Name="AutoFollowAbsoluteTrajectoryNEWCommandInterrupt.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowAbsoluteTrajectoryNEWCommandInterrupt.vi"/>
-			<Item Name="TrajectoryExecuteAbsoluteInterrupt.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteAbsoluteInterrupt.vi"/>
-			<Item Name="TrajectoryIssueCmd.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryIssueCmd.vi"/>
 			<Item Name="AutoFollowRelativeTrajectoryNEWCommandInterupt.vi" Type="VI" URL="../../2025ReefBot/Autonomous/AutoFollowRelativeTrajectoryNEWCommandInterupt.vi"/>
-			<Item Name="TrajectoryExecuteRelativeInterrupt.vi" Type="VI" URL="../../2025ReefBot/Trajectory/TrajectoryExecuteRelativeInterrupt.vi"/>
 			<Item Name="LVODE.dll" Type="Document" URL="LVODE.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -967,7 +959,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C80D7208-DBE2-4334-BF32-005C651CF7DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">39</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>

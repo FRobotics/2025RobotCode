@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1.82537912457912</Val>
+<Val>1.86506127946128</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.03817196261682</Val>
+<Val>2.11508411214953</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -60,11 +60,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>2.16267744107744</Val>
+<Val>2.06347205387205</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>3.57641495327103</Val>
+<Val>3.63409906542056</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -156,7 +156,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>2.54000000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>

@@ -896,6 +896,7 @@
 			<Item Name="NT4150_Write_Boolean.vi" Type="VI" URL="../../2025ReefBot/NT_Helper/NT4150_Write_Boolean.vi"/>
 			<Item Name="NT4150_Write_Number.vi" Type="VI" URL="../../2025ReefBot/NT_Helper/NT4150_Write_Number.vi"/>
 			<Item Name="NT4150_Write_Integer.vi" Type="VI" URL="../../2025ReefBot/NT_Helper/NT4150_Write_Integer.vi"/>
+			<Item Name="WristAlgae1SendCmd.vi" Type="VI" URL="../../2025ReefBot/Wrist/WristAlgae1SendCmd.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -959,7 +960,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C80D7208-DBE2-4334-BF32-005C651CF7DD}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>

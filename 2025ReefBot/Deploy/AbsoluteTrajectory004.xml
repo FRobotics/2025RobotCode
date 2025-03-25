@@ -20,7 +20,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.55945050505050</Val>
+<Val>7.06120000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -40,7 +40,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>6.05764600000000</Val>
+<Val>5.98144600000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -48,7 +48,7 @@
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>3.12413936106985</Val>
+<Val>3.14159265358979</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -103,7 +103,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.50800000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>

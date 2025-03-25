@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory021.xml</Val>
+<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory021.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -28,7 +28,7 @@
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>5.23598775598259E-2</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,7 +40,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>11.49070600000000</Val>
+<Val>11.56690600000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -48,7 +48,7 @@
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.74532925199423E-2</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -61,11 +61,11 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>0.50800000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.50800000000000</Val>
+<Val>0.91440000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -96,7 +96,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.50800000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -128,7 +128,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.50800000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 <Cluster>
 <Name>SwerveKinematics</Name>
@@ -276,7 +276,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -284,7 +284,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -292,7 +292,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -300,7 +300,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>

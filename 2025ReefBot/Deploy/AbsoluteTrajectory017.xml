@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>BLUE feeder to Reef B</Val>
+<Val>source 12 to Branch B</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -156,7 +156,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>1.52400000000000</Val>
+<Val>2.28600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>

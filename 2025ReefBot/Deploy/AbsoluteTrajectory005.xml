@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from red cage 2 to branch I</Val>
+<Val>moves from blue cage 2 to branch I</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -24,7 +24,7 @@
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>1.91518373831776</Val>
+<Val>1.96125981308411</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>11.80544107744108</Val>
+<Val>11.78560000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.19199626168224</Val>
+<Val>2.26890841121495</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>

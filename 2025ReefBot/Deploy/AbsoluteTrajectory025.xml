@@ -10,29 +10,29 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>starts at R2, moves to R11</Val>
+<Val>starts at Source 13, moves to Branch A</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>4</Dimsize>
 <Cluster>
 <Name>UTIL_WEIGHTED_WAYPOINT</Name>
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>10.21815488215488</Val>
+<Val>1.38862562000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>1.96125981308411</Val>
+<Val>6.65671516000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>3.49065850398821E-2</Val>
+<Val>-0.94247779607694</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>2.00000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -40,19 +40,59 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.41737928000000</Val>
+<Val>2.00394882154882</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.58623562000000</Val>
+<Val>6.09528785046729</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.11701072127637</Val>
+<Val>-1.13446401379631</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>2.00000000000000</Val>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>2.38092929292929</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>4.19171214953271</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>2.99720000000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>4.19023800000000</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -65,7 +105,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -116,7 +156,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.60960000000000</Val>
+<Val>2.28600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -276,7 +316,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -284,7 +324,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -292,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -300,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +360,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +372,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -758,7 +798,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <EW>
 <Name>Units Selector</Name>
@@ -770,7 +810,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>

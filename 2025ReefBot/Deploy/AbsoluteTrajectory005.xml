@@ -10,7 +10,7 @@
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from reef L20 to Coral Station 13</Val>
+<Val>moves from red cage 2 to branch I</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -20,15 +20,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.41536128000000</Val>
+<Val>10.48702500000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.30122638000000</Val>
+<Val>1.91518373831776</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.37881010907552</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>3.86901010101010</Val>
+<Val>11.80544107744108</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.24911214953271</Val>
+<Val>2.19199626168224</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-0.15707963267949</Val>
+<Val>1.04719755119660</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -60,15 +60,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1.38862562000000</Val>
+<Val>12.17083672000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.65671516000000</Val>
+<Val>2.81656282000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>1.81514242207410</Val>
+<Val>1.04719755119660</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.60960000000000</Val>
+<Val>2.28600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -296,7 +296,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -304,7 +304,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -312,7 +312,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -352,7 +352,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -778,7 +778,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <EW>
 <Name>Units Selector</Name>
@@ -790,7 +790,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>

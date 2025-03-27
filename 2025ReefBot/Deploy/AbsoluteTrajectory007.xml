@@ -6,29 +6,29 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory007.xml</Val>
+<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory007.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from B1-B2 starting to R9</Val>
+<Val>moves from L21 to Coral station 12 </Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>4</Dimsize>
 <Cluster>
 <Name>UTIL_WEIGHTED_WAYPOINT</Name>
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>10.53348160000000</Val>
+<Val>12.17083672000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.63381495327103</Val>
+<Val>2.81656282000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.00000000000000</Val>
+<Val>-1.57079632679490</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,55 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>12.13273672000000</Val>
+<Val>12.22210370370370</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.30122638000000</Val>
+<Val>2.23045233644860</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.00000000000000</Val>
+<Val>-0.80285145591739</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>15.61492794612795</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>1.88434766355140</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>-0.94247779607694</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>16.26423468000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>1.25124210000000</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>-0.94247779607694</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -61,11 +101,11 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>0.45720000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -96,7 +136,7 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.45720000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -116,7 +156,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.60960000000000</Val>
+<Val>2.28600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -128,7 +168,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.45720000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 <Cluster>
 <Name>SwerveKinematics</Name>
@@ -276,7 +316,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -284,7 +324,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -292,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -300,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>0.00000000000000</Val>
+<Val>-3.92523114670944E-17</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +360,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +372,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503936</Val>
+<Val>9.84251968503937</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -758,7 +798,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <EW>
 <Name>Units Selector</Name>
@@ -770,7 +810,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>

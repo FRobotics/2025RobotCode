@@ -6,29 +6,29 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory007.xml</Val>
+<Val>C:\Shares\github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory008.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>moves from L21 to Coral station 12 </Val>
+<Val>moves from coral station 1 to branch A</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
-<Dimsize>3</Dimsize>
+<Dimsize>4</Dimsize>
 <Cluster>
 <Name>UTIL_WEIGHTED_WAYPOINT</Name>
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.73407138047138</Val>
+<Val>16.26423468000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>3.96097570093458</Val>
+<Val>1.25124210000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>0.26179938779915</Val>
+<Val>2.09439510239320</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,19 +40,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>6.36898585858586</Val>
+<Val>15.69429225589226</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.17276822429907</Val>
+<Val>2.05740000000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-1.32645023151569</Val>
+<Val>2.04203522483336</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>0.00000000000000</Val>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -60,19 +60,39 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>1.07141818181818</Val>
+<Val>15.25778855218855</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.63452523364486</Val>
+<Val>3.84560747663551</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-2.11184839491313</Val>
+<Val>3.14159265358979</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>2.00000000000000</Val>
+<Val>0.20000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>X</Name>
+<Val>14.55089800000000</Val>
+</DBL>
+<DBL>
+<Name>Y</Name>
+<Val>3.86156200000000</Val>
+</DBL>
+<DBL>
+<Name>ANGLE</Name>
+<Val>3.14159265358979</Val>
+</DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.20000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -85,7 +105,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>1.52400000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -136,7 +156,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.60960000000000</Val>
+<Val>2.28600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -778,7 +798,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <EW>
 <Name>Units Selector</Name>
@@ -790,7 +810,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>

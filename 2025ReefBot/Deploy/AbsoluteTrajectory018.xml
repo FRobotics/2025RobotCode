@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>11.56734814814815</Val>
+<Val>11.66655353535354</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.03760373831776</Val>
+<Val>5.78763925233645</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-0.21894001301587</Val>
+<Val>-0.52359877559830</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.27000000000000</Val>
+<Val>1.14300000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>1.39700000000000</Val>
+<Val>1.01600000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -790,7 +790,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>
@@ -798,18 +798,18 @@
 </String>
 <Boolean>
 <Name>Rect Region Exists</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Cluster>
 <Name>RectRegionBotLeft</Name>
 <NumElts>2</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>11.93800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.00000000000000</Val>
+<Val>5.23240000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -817,16 +817,16 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>12.44600000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.00000000000000</Val>
+<Val>5.48640000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
 <Name>Rect Region Max Speed</Name>
-<Val>3.00000000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 </Cluster>
 </LVData>

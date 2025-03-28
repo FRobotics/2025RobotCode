@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.85311784511785</Val>
+<Val>5.91264107744108</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.07662803738318</Val>
+<Val>2.15354018691589</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -790,7 +790,7 @@
 </EW>
 <Boolean>
 <Name>UseWeights</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 <String>
 <Name>FieldName</Name>

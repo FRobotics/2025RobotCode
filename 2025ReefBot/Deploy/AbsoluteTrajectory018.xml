@@ -40,19 +40,19 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>11.66655353535354</Val>
+<Val>11.38877845117845</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.78763925233645</Val>
+<Val>6.05683177570093</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-0.52359877559830</Val>
+<Val>-1.04719755119660</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>0.20000000000000</Val>
+<Val>0.50000000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -72,7 +72,7 @@
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
-<Val>0.20000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 </Cluster>
 </Array>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.14300000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>1.01600000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -296,7 +296,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -304,7 +304,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -312,7 +312,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -352,7 +352,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -826,7 +826,7 @@
 </Cluster>
 <DBL>
 <Name>Rect Region Max Speed</Name>
-<Val>0.60960000000000</Val>
+<Val>0.45720000000000</Val>
 </DBL>
 </Cluster>
 </LVData>

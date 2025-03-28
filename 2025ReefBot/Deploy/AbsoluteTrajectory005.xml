@@ -20,7 +20,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>10.48702500000000</Val>
+<Val>10.23799595959596</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>11.78560000000000</Val>
+<Val>11.24989090909091</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.26890841121495</Val>
+<Val>1.98048785046729</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.52400000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -101,7 +101,7 @@
 </Boolean>
 <Boolean>
 <Name>DiffDrKineConstntDefined</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>CentAcellConstntDefined</Name>
@@ -116,14 +116,14 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.00000000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.00000000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>2.28600000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -296,7 +296,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -304,7 +304,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -312,7 +312,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -352,7 +352,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -778,7 +778,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <EW>
 <Name>Units Selector</Name>

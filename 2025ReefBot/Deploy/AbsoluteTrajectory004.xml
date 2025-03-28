@@ -6,7 +6,7 @@
 <NumElts>12</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Shares\Github\frobotics-2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory004.xml</Val>
+<Val>C:\Shares\Github\2025RobotCode\2025ReefBot\Deploy\AbsoluteTrajectory004.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
@@ -20,11 +20,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.06120000000000</Val>
+<Val>7.57929158249158</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>4.07634392523364</Val>
+<Val>4.19023800000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -65,7 +65,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>0.91440000000000</Val>
+<Val>0.45720000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>

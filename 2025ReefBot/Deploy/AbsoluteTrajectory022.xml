@@ -20,11 +20,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>7.06120000000000</Val>
+<Val>7.30151649831650</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.21065607476636</Val>
+<Val>6.28756822429907</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -40,11 +40,11 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>5.69438922558923</Val>
+<Val>5.71423030303030</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>5.84532336448598</Val>
+<Val>5.80686728971963</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -85,7 +85,7 @@
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.52400000000000</Val>
+<Val>0.76200000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -101,7 +101,7 @@
 </Boolean>
 <Boolean>
 <Name>DiffDrKineConstntDefined</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Boolean>
 <Name>CentAcellConstntDefined</Name>
@@ -116,14 +116,14 @@
 <NumElts>3</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>0.00000000000000</Val>
+<Val>2.54000000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
 <NumElts>1</NumElts>
 <DBL>
 <Name>TrackWidth_Meters</Name>
-<Val>0.00000000000000</Val>
+<Val>0.73660000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
@@ -136,7 +136,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>2.28600000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -296,7 +296,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -304,7 +304,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -312,7 +312,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -320,7 +320,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -352,7 +352,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -798,18 +798,18 @@
 </String>
 <Boolean>
 <Name>Rect Region Exists</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <Cluster>
 <Name>RectRegionBotLeft</Name>
 <NumElts>2</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>5.10540000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.00000000000000</Val>
+<Val>4.97840000000000</Val>
 </DBL>
 </Cluster>
 <Cluster>
@@ -817,16 +817,16 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>0.00000000000000</Val>
+<Val>5.58800000000000</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>0.00000000000000</Val>
+<Val>5.48640000000000</Val>
 </DBL>
 </Cluster>
 <DBL>
 <Name>Rect Region Max Speed</Name>
-<Val>3.00000000000000</Val>
+<Val>0.60960000000000</Val>
 </DBL>
 </Cluster>
 </LVData>

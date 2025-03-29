@@ -28,7 +28,7 @@
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-0.94247779607694</Val>
+<Val>-1.39626340159546</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -40,15 +40,15 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>2.00394882154882</Val>
+<Val>1.52776296296296</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>6.09528785046729</Val>
+<Val>5.67227102803738</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
-<Val>-1.13446401379631</Val>
+<Val>-1.39626340159546</Val>
 </DBL>
 <DBL>
 <Name>WEIGHT</Name>
@@ -60,7 +60,7 @@
 <NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
-<Val>2.38092929292929</Val>
+<Val>2.44045252525253</Val>
 </DBL>
 <DBL>
 <Name>Y</Name>
@@ -316,7 +316,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -324,7 +324,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -332,7 +332,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -340,7 +340,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>-3.92523114670944E-17</Val>
+<Val>0.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -360,7 +360,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
@@ -372,7 +372,7 @@
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>
-<Val>9.84251968503937</Val>
+<Val>9.84251968503936</Val>
 </DBL>
 <DBL>
 <Name>Real Matrix Element</Name>

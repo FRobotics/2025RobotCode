@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.Timer;
 
 // =============================================================================================
 /**
- *  DESCRIPTION...<br>
+ *  DESCRIPTION...
  *<br>
  *  File:   FILENAME.java<br>
  *<br>

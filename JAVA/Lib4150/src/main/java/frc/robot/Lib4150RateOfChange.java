@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.Timer;
 /**
  *  DESCRIPTION...
  *<br>
- *  File:   FILENAME.java<br>
+ *  File:   Lib4150RateOfChange.java<br>
  *<br>
  *  Referenceable items: (classes)<br>
  *          CLASSNAME<br>
@@ -23,15 +23,16 @@ import edu.wpi.first.wpilibj.Timer;
  *          NOTES_IF_ANY.
  *<br>
  * ========================== Version History ==================================================<br>
- *  1.00    XX/XX/2025  NAME     Created.<br>
+ *  1.00    11/09/2025  Ezra Duchamp     Created.<br>
  * =============================================================================================<br>
  *<br>
- * @author     NAME
+ * @author     Ezra Duchamp
  * @version    1.0
- * @since      XXXX-XX-XX
+ * @since      2025-11-09
 */
 public class Lib4150RateOfChange {
-
+    private double prevValue = 0.0;
+    private double prevTime = 0.0;
     // --------internal object variables.
 
     // ---------------------------------------------------------------------------------------------
@@ -51,7 +52,9 @@ public class Lib4150RateOfChange {
     *   @return returnName - type - decription
     */
     public double RateOfChangeCalc( double inputValue ) {
+        
         return this.RateOfChangeCalc(inputValue, Timer.getFPGATimestamp() );
+
     }
 
 
@@ -63,7 +66,16 @@ public class Lib4150RateOfChange {
     *   @return returnName - type - decription
     */
     public double RateOfChangeCalc( double inputValue, double timeValue ) {
+        double Speed = 0.0;
+        double diffValue= inputValue - prevValue;
+        double diffTime = timeValue - prevTime;
+        if (diffTime == 0){
+            return Speed;
+        }
+        
+        else {
         return 0.0;
+        }
     }
 
 }

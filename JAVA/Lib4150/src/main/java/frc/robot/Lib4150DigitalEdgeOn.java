@@ -5,12 +5,12 @@ package frc.robot;
 
 // =============================================================================================
 /**
- *  DESCRIPTION...
+ * implements edge on detection
  *<br>
- *  File:   FILENAME.java<br>
+ *  File:   Lib4150DigitalEdgeon.java<br>     //this line might have been mispelled, I fixed it :)     (used to say File:   :ib4150DigitalEdgeon.java<br>)
  *<br>
  *  Referenceable items: (classes)<br>
- *          CLASSNAME<br>
+ *          Lib4150DigitalEdgeon.java<br>
  *<br>
  *  Depends on:<br>
  *          none - no external libraries required<br>
@@ -19,25 +19,25 @@ package frc.robot;
  *          None - transportable<br>
  *<br>
  *  Notes:<br>
- *          NOTES_IF_ANY.
+ *          nothing of note at the moment
  *<br>
  * ========================== Version History ==================================================<br>
- *  1.00    XX/XX/2025  NAME     Created.<br>
+ *  1.00    11/09/2025  William Mayberry     Created.<br>
  * =============================================================================================<br>
  *<br>
- * @author     NAME
+ * @author     William Mayberry
  * @version    1.0
- * @since      XXXX-XX-XX
+ * @since      2025-11-09
 */
 public class Lib4150DigitalEdgeOn {
 
     // --------internal object variables.
-
+    private boolean locPrevValue = false;
      // ---------------------------------------------------------------------------------------------
     /**
-    *   Construct a XXXXXXXX
+    *   Construct a EdgeOn object -  defaults the previous value to false when not given any parameters.
     *                   
-    *   @param  paramName - type - description.
+    *   
     */
     public Lib4150DigitalEdgeOn( ) {
         this( false ); 
@@ -45,22 +45,26 @@ public class Lib4150DigitalEdgeOn {
 
     // ---------------------------------------------------------------------------------------------
     /**
-    *   Construct a XXXXXXXX
+    *   Construct an EdgeOn object
     *                   
-    *   @param  paramName - type - description.
+    *   @param  initialValue - boolean - sets the locPrevValue to the parameter.
     */
     public Lib4150DigitalEdgeOn( boolean initialValue ) {
+        locPrevValue = initialValue;
     }
 
     // ---------------------------------------------------------------------------------------------
     /**
-    *   DESCRIPTION
-    *
-    *   @param  paramName - type - description.
-    *   @return returnName - type - decription
-    */
+     * execute edge on detection logic
+     * @param currentValue - bool - current value to check for edges
+     * @return onEdge - boolean - result of edge detection. True when an On edge occured.
+     */
     public boolean EdgeOnExec( boolean currentValue ) {
-        return false;
+        boolean  retValue = false;
+
+        retValue = currentValue  && !locPrevValue;
+        locPrevValue = currentValue;
+        return retValue;
     }
 
 }

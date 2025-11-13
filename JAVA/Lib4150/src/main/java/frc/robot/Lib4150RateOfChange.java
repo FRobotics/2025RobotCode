@@ -2,16 +2,17 @@
 
 package frc.robot;
 
+import edu.wpi.first.units.measure.Distance;
 import edu.wpi.first.wpilibj.Timer;
 
 // =============================================================================================
 /**
  *  DESCRIPTION...
  *<br>
- *  File:   FILENAME.java<br>
+ *  File:   Lib4150RateOfChange.java<br>
  *<br>
  *  Referenceable items: (classes)<br>
- *          CLASSNAME<br>
+ *          Lib4150RateOfChange<br>
  *<br>
  *  Depends on:<br>
  *          none - no external libraries required<br>
@@ -20,20 +21,22 @@ import edu.wpi.first.wpilibj.Timer;
  *          None - transportable<br>
  *<br>
  *  Notes:<br>
- *          NOTES_IF_ANY.
+ *          nothing of note
  *<br>
  * ========================== Version History ==================================================<br>
  *  1.00    XX/XX/2025  NAME     Created.<br>
  * =============================================================================================<br>
  *<br>
- * @author     NAME
+ * @author     William Mayberry
  * @version    1.0
- * @since      XXXX-XX-XX
+ * @since      2025-11-9
 */
+@SuppressWarnings("unused")
 public class Lib4150RateOfChange {
 
     // --------internal object variables.
-
+    double prevDistValue;
+    double prevTimeValue;
     // ---------------------------------------------------------------------------------------------
     /**
     *   Construct a XXXXXXXX
@@ -41,6 +44,8 @@ public class Lib4150RateOfChange {
     *   @param  paramName - type - description.
     */
     public Lib4150RateOfChange() {
+        prevDistValue=0.0;
+        prevTimeValue=0.0;
     }
 
     // ---------------------------------------------------------------------------------------------
@@ -50,8 +55,8 @@ public class Lib4150RateOfChange {
     *   @param  paramName - type - description.
     *   @return returnName - type - decription
     */
-    public double RateOfChangeCalc( double inputValue ) {
-        return this.RateOfChangeCalc(inputValue, Timer.getFPGATimestamp() );
+    public double RateOfChangeCalc( double distValue ) {
+        return this.RateOfChangeCalc(distValue, Timer.getFPGATimestamp() );
     }
 
 
@@ -62,8 +67,17 @@ public class Lib4150RateOfChange {
     *   @param  paramName - type - description.
     *   @return returnName - type - decription
     */
-    public double RateOfChangeCalc( double inputValue, double timeValue ) {
-        return 0.0;
+    public double RateOfChangeCalc( double distValue, double timeValue ) {
+        double retValue=0.0;
+        double distDiff = distValue-prevDistValue;
+        double timeDiff = timeValue-prevTimeValue;
+        if (timeDiff==0){
+            return retValue;
+        }
+        retValue=distDiff/timeDiff;
+        prevDistValue=distValue;
+        prevTimeValue=timeValue;
+        return retValue;
     }
 
 }

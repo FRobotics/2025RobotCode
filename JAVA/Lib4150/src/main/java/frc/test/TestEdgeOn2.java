@@ -1,16 +1,18 @@
 
-package frc.robot;
+package frc.test;
 
-public class MainEdgeOn {
+import frc.robot.Lib4150DigitalEdgeOn;
+
+public class TestEdgeOn2 {
 
   // --------constructor -- cant be called.
-  private MainEdgeOn() {
+  private TestEdgeOn2() {
   }
 
   /**
    *   Main routine.   put your test code here....
    */
-  public static void main(String... args) {
+  public static void executeTest() {
     System.out.println("Testing function: Lib4150DigitalEdgeOn");
     Lib4150DigitalEdgeOn testEdgeOn = new Lib4150DigitalEdgeOn();
 

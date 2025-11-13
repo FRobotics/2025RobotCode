@@ -4,9 +4,9 @@ package frc.robot;
 
 // =============================================================================================
 /**
- *  DESCRIPTION...
+ *  implements a digital edge change detection
  *<br>
- *  File:   FILENAME.java<br>
+ *  File:   Lib4150DigitalEdgeChange.java<br>
  *<br>
  *  Referenceable items: (classes)<br>
  *          CLASSNAME<br>
@@ -21,17 +21,17 @@ package frc.robot;
  *          NOTES_IF_ANY.
  *<br>
  * ========================== Version History ==================================================<br>
- *  1.00    XX/XX/2025  NAME     Created.<br>
+ *  1.00    11/09/2025  Ezra Duchamp     Created.<br>
  * =============================================================================================<br>
  *<br>
- * @author     NAME
+ * @author     Ezra Duchamp
  * @version    1.0
- * @since      XXXX-XX-XX
+ * @since      2025-11-09
 */
 public class Lib4150DigitalEdgeChange {
 
     // --------internal object variables.
-
+    private boolean locPrevValue = false;
     // ---------------------------------------------------------------------------------------------
     /**
     *   Construct a XXXXXXXX
@@ -49,6 +49,7 @@ public class Lib4150DigitalEdgeChange {
     *   @param  paramName - type - description.
     */
     public Lib4150DigitalEdgeChange( boolean initialValue ) {
+        locPrevValue = initialValue;
     }
 
 
@@ -59,8 +60,13 @@ public class Lib4150DigitalEdgeChange {
     *   @param  paramName - type - description.
     *   @return returnName - type - decription
     */
-    public boolean EdgeOnExec( boolean currentValue ) {
-        return false; // replace when adding real code...
+    public boolean EdgeChangeExec( boolean currentValue ) {
+        boolean returnValue = false;
+        returnValue = currentValue != locPrevValue;
+        locPrevValue = currentValue;
+
+      
+        return returnValue; // replace when adding real code...
     }
 
 }

@@ -6,13 +6,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "MainEdgeOn",
-      "request": "launch",
-      "mainClass": "frc.robot.MainEdgeOn",
-      "projectName": "Lib4150"
-    },
-    {
-      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "frc.robot.Main",

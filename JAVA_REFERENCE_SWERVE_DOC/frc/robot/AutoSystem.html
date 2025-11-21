@@ -31,6 +31,7 @@ loadScripts(document, 'script');</script>
 <div class="top-nav" id="navbar-top">
 <div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
 <ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
+<li><a href="../../index.html">Overview</a></li>
 <li><a href="package-summary.html">Package</a></li>
 <li class="nav-bar-cell1-rev">Class</li>
 <li><a href="package-tree.html">Tree</a></li>
@@ -137,20 +138,30 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#execute()" class="member-name-link">execute</a>()</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static int</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#checkAndSetAutoRoutineToRun()" class="member-name-link">checkAndSetAutoRoutineToRun</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
-<div class="block">execute the auto.</div>
+<div class="block">check and set the auto routine to execute.</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#executeInitialize()" class="member-name-link">executeInitialize</a>()</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#execute()" class="member-name-link">execute</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">execute the auto.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#executeInitialize()" class="member-name-link">executeInitialize</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">prepare to run auto.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getAutoChoices()" class="member-name-link">getAutoChoices</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getAutoChoices()" class="member-name-link">getAutoChoices</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">get exec routine elapsed time.</div>
+</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static int</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getAutoRoutineIndex(java.lang.String)" class="member-name-link">getAutoRoutineIndex</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;autoDescription)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">get auto index from description</div>
 </div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static double</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#getAutoStepCmdDouble()" class="member-name-link">getAutoStepCmdDouble</a>()</code></div>
@@ -237,24 +248,29 @@ loadScripts(document, 'script');</script>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">initialize the auto routines.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorOrientDeg(double)" class="member-name-link">setExecErrorOrientDeg</a><wbr>(double&nbsp;orientErrorDeg)</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static int</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setAutoRoutineToRun(int)" class="member-name-link">setAutoRoutineToRun</a><wbr>(int&nbsp;autoRoutineIndex)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">set the auto routine to execute.</div>
+</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorOrientDeg(double)" class="member-name-link">setExecErrorOrientDeg</a><wbr>(double&nbsp;orientErrorDeg)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">set step error Orient</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorXMeters(double)" class="member-name-link">setExecErrorXMeters</a><wbr>(double&nbsp;xErrorM)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorXMeters(double)" class="member-name-link">setExecErrorXMeters</a><wbr>(double&nbsp;xErrorM)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">set step error X</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorYMeters(double)" class="member-name-link">setExecErrorYMeters</a><wbr>(double&nbsp;yErrorM)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecErrorYMeters(double)" class="member-name-link">setExecErrorYMeters</a><wbr>(double&nbsp;yErrorM)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">set step error Y</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecOnTarget(boolean)" class="member-name-link">setExecOnTarget</a><wbr>(boolean&nbsp;onTarget)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#setExecOnTarget(boolean)" class="member-name-link">setExecOnTarget</a><wbr>(boolean&nbsp;onTarget)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">set step on Target</div>
 </div>
 </div>
@@ -293,6 +309,30 @@ loadScripts(document, 'script');</script>
 <h3>execute</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">execute</span>()</div>
 <div class="block">execute the auto.  This should be called every 20ms during auto.</div>
+</section>
+</li>
+<li>
+<section class="detail" id="checkAndSetAutoRoutineToRun()">
+<h3>checkAndSetAutoRoutineToRun</h3>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">checkAndSetAutoRoutineToRun</span>()</div>
+<div class="block">check and set the auto routine to execute.  Checks SmartDashboard NT variable "Auto Selector"</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>selectedAutoIndex - int - Index of the selected auto routine, -1 = none.</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="setAutoRoutineToRun(int)">
+<h3>setAutoRoutineToRun</h3>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">setAutoRoutineToRun</span><wbr><span class="parameters">(int&nbsp;autoRoutineIndex)</span></div>
+<div class="block">set the auto routine to execute.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>autoRoutineIndex</code> - - int - Index (starting at 0) of the auto routine to execute.</dd>
+<dt>Returns:</dt>
+<dd>selectedAutoIndex - int - Index of the selected auto routine, -1 = none.</dd>
+</dl>
 </section>
 </li>
 <li>
@@ -336,6 +376,19 @@ loadScripts(document, 'script');</script>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>onTarget</code> - - boolean - Step execution on Target</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="getAutoRoutineIndex(java.lang.String)">
+<h3>getAutoRoutineIndex</h3>
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getAutoRoutineIndex</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;autoDescription)</span></div>
+<div class="block">get auto index from description</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>autoDescription</code> - - String - Description of auto routine to find.</dd>
+<dt>Returns:</dt>
+<dd>foundAutoIndex - int - Index of the found auto routine, -1 = none.</dd>
 </dl>
 </section>
 </li>
@@ -387,7 +440,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getAutoStepCmdInt()">
 <h3>getAutoStepCmdInt</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getAutoStepCmdInt</span>()</div>
-<div class="block">get command number for this auto routine step.</div>
+<div class="block">get command number for this auto routine step. This is the enum value from LabVIEW</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>cmd - int - value of cmd for this step.</dd>
@@ -411,7 +464,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="getAutoStepCmdDouble()">
 <h3>getAutoStepCmdDouble</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getAutoStepCmdDouble</span>()</div>
-<div class="block">get command number for this auto routine step.</div>
+<div class="block">get command number for this auto routine step.  This is the LabVIEW enum value.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>cmd - double - value of cmd for this step.</dd>

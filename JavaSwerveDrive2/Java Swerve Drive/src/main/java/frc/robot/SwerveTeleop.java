@@ -5,7 +5,9 @@ package frc.robot;
 import edu.wpi.first.math.MathUtil;
 import edu.wpi.first.math.kinematics.ChassisSpeeds;
 import edu.wpi.first.math.util.Units;
+import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.XboxController;
+import edu.wpi.first.wpilibj2.command.PrintCommand;
 
 public class SwerveTeleop {
    
@@ -23,8 +25,13 @@ public class SwerveTeleop {
     private static final double motorOffsetTotal=(Math.sqrt(Math.pow(motorOffsetX, 2) + Math.pow(motorOffsetY, 2)))/12;
     private static final double circumfrence=2*Math.PI*motorOffsetTotal;
     private static final double realRotSpeed = maxLinearSpeed/circumfrence * 360;
-
-    
+    // true is field orient false is robot orient
+    private static boolean orient;
+    private static double exeTime=0;
+    private static double endTime=0;
+    private static double lastStartTime=0;
+    private static double periodicTime=0;
+    private static double startTime=0;
 
     private SwerveTeleop(){
 
@@ -37,6 +44,10 @@ public class SwerveTeleop {
     }
     
     public static void SwerveExecute(){
+        //start time
+        startTime = Timer.getFPGATimestamp();
+        periodicTime = (startTime - lastStartTime)*1000;
+        lastStartTime = startTime;
 
         // --------read joysticks
         YIn=myXboxController.getLeftX();
@@ -64,8 +75,20 @@ public class SwerveTeleop {
         myChassisSpeeds.omegaRadiansPerSecond = Units.degreesToRadians(RotInDeg);
         //-----tell drive system our desired speed
         SwerveDrive.setDesiredSpeed(myChassisSpeeds);
-    }
 
+        
+        endTime = Timer.getFPGATimestamp();
+        exeTime = (endTime-startTime)*1000;
+    }
+    public static boolean getFieldOrientedDriving(){
+        return(orient);
+    }
+    public static double getTeleopElapsedTimeMilli(){
+        return(exeTime);
+    }
+    public static double getTeleopPeriodicTimeMilli(){
+        return(periodicTime);
+    }
   /*   public static double TeleopCalc(double input) {
 
         double joyval = input;

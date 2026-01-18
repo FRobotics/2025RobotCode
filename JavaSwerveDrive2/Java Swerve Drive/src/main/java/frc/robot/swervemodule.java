@@ -33,6 +33,15 @@ public class swervemodule {
         speedMotor = new PWMTalonSRX(speedID);
         rotationMotor = new PWMTalonSRX(rotID);
 
+        /*kine -> done
+        -open drive motor
+        -open spin motor
+        -brake/coast
+        -rate limit
+        -current limit
+        -conv   */
+
+
     }
 
     public Translation2d getModuleLocation() {
